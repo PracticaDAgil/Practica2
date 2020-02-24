@@ -1,0 +1,4 @@
+*.pyc
+docs/out/doc
+ve
+.DS_Store
