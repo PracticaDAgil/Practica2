@@ -3,5 +3,5 @@
 ###
 
 
-![Captura Trello](/Trello/Product_Backlog.png)
+![Captura Trello](/Trello/Product_Backlog.PNG)
 
