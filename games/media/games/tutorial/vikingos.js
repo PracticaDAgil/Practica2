@@ -150,6 +150,9 @@ undum.game.situations = {
                     'actualizatexto': function(character, system, from){
                         system.setCharacterText("<p>¡Ahora eres Lagertha! Lagertha es la mujer de Ragnar, y es una de las vikingas más famosas del mundo nórdico. \
                             Es conocida por ser una grandiosa guerrera y escudera, y por haber participado y vencido en innumerables batallas.</p>");
+                        system.setQuality("espada", false);
+                        system.setQuality("monedas", 0);
+                        system.setQuality("corona", false);
                         system.doLink('cambioprotagonista');
                     }
                 }
@@ -165,6 +168,8 @@ undum.game.situations = {
             {
                 actions: {
                     'actualizatexto': function(character, system, from){
+                        system.setQuality("espada", false);
+                        system.setQuality("monedas", 0);
                         system.setCharacterText("<p>¡Ahora eres Lagertha! Lagertha es la mujer de Ragnar, y es una de las vikingas más famosas del mundo nórdico. \
                             Es conocida por ser una grandiosa guerrera y escudera, y por haber participado y vencido en innumerables batallas.</p>");
                         system.doLink('cambioprotagonista');
@@ -175,48 +180,68 @@ undum.game.situations = {
 
         cambioprotagonista: new undum.SimpleSituation (
             "<h1>LAGERTHA</h1>\
-            <p>\
-            <br/>Puedes <a href='./cogerespada'>coger la espada corta que te ofrece el espía</a> o <a href='./cogerhachayescudo'>coger tu hacha y escudo</a>\
-            Puedes <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, o <a href='hablarconde'>ir a hablar con el Conde\
-            para conseguir salir de esta situación<p/>",
+            <p>Un espía que se encontraba en el lugar en el que fue detenido Ragnar se acerca a tu casa. El espía se acerca y te comenta lo sucedido.\
+            Tras enterarte, nerviosa y enfadada, pero decidida, piensas en cómo actuar. Pero antes de nada, poco vas a poder a hacer sin un arma. \
+            <br/>Puedes coger <a href='./cogerespada'>la espada corta</a>  que te ofrece el espía o coger tu  <a href='./cogerhachayescudo'>hacha y escudo</a>\
+            <p/>",
             {
                 actions: {
                     'cogerespada': function(character, system, from){
-                        system.setCharacterText("Has cogido una espada.");
-                        system.setQuality("corona", false);
-                        system.setQuality("monedas", 0);
                         system.setQuality("espada", false);
-                        system.qualities.setQuality("hacha", false);
-                        system.qualities.setQuality("escudo", false)
-                        system.qualities.setQuality("espada", true);
+                        system.setQuality("monedas", false);
+                        system.setQuality("hacha", false);
+                        system.setQuality("escudo", false);
+                        system.setQuality("espadacorta", true);
+                        system.setCharacterText("<p>Has cogido una espada.</p>");
+                        system.doLink('postcambio');
                     },
                     'cogerhachayescudo': function(character, system, from){
-                        system.setCharacterText("Has cogido tu hacha y escudo.");
                         system.setQuality("corona", false);
-                        system.setQuality("monedas", 0);
+                        system.setQuality("monedas", false);
                         system.setQuality("espada", false);
                         system.qualities.setQuality("hacha", true);
                         system.qualities.setQuality("escudo", true);
+                        system.setCharacterText("<p>Has cogido tu hacha y escudo.</p>");
+                        system.doLink('postcambio');
                     }
                 }
             }
         ), 
 
+        postcambio: new undum.SimpleSituation (
+            "<p>Puedes <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, o <a href='hablarconde'>ir a hablar con el Conde\
+            para conseguir salir de esta situación</p>"
+        ),
+
         hablarconde: new undum.SimpleSituation (
-            "<h1>El salon del Conde</h1>\
-            --redactar--\
+            "<h1>EL SALON DEL CONDE</h1>\
+            <p>Entras al salón del conde para hablar con él. Haraldson se encuentra en su trono mirándote friamente, pues sabía que\
+            no te ibas a tomar bien detención de Ragnar. Desesperada, exiges que libere a Ragnar, amenazándole con atacarle con tus tropas.\
+            <br/>Tras la amenaza sus soldados levantan sus armas, dirigiéndose a ti. El Conde, tras un incómodo momento, ordena que te detengan a ti también.<br/>\
+            Eres detenida, y tus tropas se quedan sin líder, lo que hace que no se atrevan a atacar. Has sido derrotada por tamaña estupidez.</p>\
             <h1>FIN</h1>\
-            "
+            ",
+            {
+                enter: function(character, system, from) {
+                    system.setCharacterText("<p>Este es tu inventario</p>");
+                }
+            }
         ),
 
 
         movilizartropas: new undum.SimpleSituation (
             "<h1>TROPAS</h1>\
-            <p>--redactar--\
+            Ordenas a tus dos soldados de mayor confianza que llamen a todos los seguidores de Ragnar. Estos, suponen prácticamente la mitad de la tribu\
+            y sin duda, lucharían a muerte por liberarle.\
             Puedes <a href='ataquetropas'>comandar a tus tropas para provocar un enfrentamiento brutal</a> o\
-            como no quieres derramar la sangre de tu pueblo, <a href='mediarconde'>conversas con el Conde para que se rinda, libere a Ragnar\
+            como no quieres derramar la sangre de tu pueblo, <a href='mediarconde'>presionas al Conde para que se rinda, libere a Ragnar\
              y se exilie del condado.</a><p/>\
-            "
+            ",
+            {
+                enter: function(character, system, from) {
+                    system.setCharacterText("<p>Este es tu inventario</p>");
+                }
+            }
         ),
 
         ataquetropas: new undum.SimpleSituation (
@@ -253,6 +278,9 @@ undum.game.qualities = {
     escudo: new undum.OnOffQuality(
         "Escudo", {priority:"0001", group:'stats'}
     ),
+    espadacorta: new undum.OnOffQuality(
+        "Espada corta", {priority:"0001", group:'stats'}
+    ),
 };
 
 // ---------------------------------------------------------------------------
@@ -273,5 +301,8 @@ undum.game.init = function(character, system) {
     character.qualities.monedas = 100;
     character.qualities.corona = 1;
     character.qualities.espada = 1;
+    character.qualities.escudo = 0;
+    character.qualities.hacha = 0;
+    character.qualities.espadacorta = 0;
     system.setCharacterText("<p>Comienzas con un tesoro en tu poder.</p>");
 };
