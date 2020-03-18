@@ -43,13 +43,28 @@ undum.game.situations = {
             <img height=350 width=500 src='./media/img/kattegat1.png'> <br>\
             <p>Al entrar en la tribu, recuerdas que Kattegat está gobernado por el\
             <a href='https://vikings.fandom.com/es/wiki/Conde_Haraldson' class='raw' target='_new'>Conde Haraldson,</a>\
-            con el cual tuviste tus rencillas en el pasado, y no os tenéis mucho aprecio.<\p>\
+            con el cual tuviste tus rencillas en el pasado, y no os tenéis mucho aprecio.\
+            Estás deseoso de conseguir quitarle el trono a Haraldson, aunque no va a ser nada fácil.<\p>\
             <p>Al entrar a la tribu puedes ir a <a href='verfamilia'>visitar a tu familia,</a> la cual llevas varias \
-            semanas sin ver, o <a href='verconde'>ir a ver al Conde Haraldson,</a> el cual ya ha sido advertido de tu \
+            semanas sin ver, o <a href='verconde1'>ir a ver al Conde Haraldson,</a> el cual ya ha sido advertido de tu \
             presencia en el condado pues sus soldados te han visto entrar.</p>",
         ),
 		
-        verconde: new undum.SimpleSituation (
+        verconde1: new undum.SimpleSituation (
+            "<h1>El salón del conde Haraldson</h1>\
+            <p>Al entrar al salón, Haraldson se encuentra sentado en el trono de Conde, acompañado por su mujer.\
+            El Conde te mira con desprecio, como ya era habitual, y te echa la bronca por la tardanza, desfiante.\
+            <img height=667 width=500 src='./media/img/conde1.jpg'></p>\
+            <p>Aún así, decides <a href='pedirdisculpas'>no entrar en su juego y pedirle disculpas\
+             por ello</a> ya que no es un buen momento ni lugar para provocar una trifulca.\
+            </p>",
+            {
+                enter: function(character, system, from) {
+                    system.setCharacterText("<p>Este es tu inventario</p>");
+                }
+            }
+        ),
+        verconde2: new undum.SimpleSituation (
             "<h1>El salón del conde Haraldson</h1>\
             <p>Al entrar al salón, Haraldson se encuentra sentado en el trono de Conde, acompañado por su mujer.\
             Te observa fijamente, la tensión es insoportable, y malhumorado, te acaba diciendo:<br>  &nbsp&nbsp&nbsp<i>-Vuelves de un saqueo, y en vez de cumplir con tu obligación, la cual\
@@ -73,12 +88,12 @@ undum.game.situations = {
                     'darmonedas': function( character, system, action) {
                             system.setCharacterText( "<p>Te has quedado con sesenta monedas.</p>" );
                             system.setQuality("monedas", 60);
-                            system.doLink('verfamiliafinalconde');
-                        },
+                            system.doLink('pagasyteencierran');
+                    },
                     'darcorona': function( character, system, action) {
                         system.setCharacterText( "<p>Te has quedado sin corona.</p>" );
                         system.setQuality("corona", false);
-                        system.doLink('verfamiliafinalconde');
+                        system.doLink('pagasyteencierran');
                     }
                 }
             }
@@ -95,25 +110,25 @@ undum.game.situations = {
                            system.setCharacterText( "<p>Te has quedado con cincuenta monedas y sin corona</p>");
                            system.setQuality("monedas", 50);
                            system.setQuality("corona", false);
-						   system.doLink('verfamiliafinalconde');
+						   system.doLink('pagasyteencierran');
                         },
                        'intentarasesinarle': function( character, system, action) {
                            system.setCharacterText( "<p>Todas tus pertenencias han sido requisadas.</p>" );
                            system.setQuality("corona", false);
                            system.setQuality("monedas", 0);
                            system.setQuality("espada", false);
-						   system.doLink('finalmalo');
+						   system.doLink('encarcelado');
                        }
                }
            }
         ),
 		verfamilia: new undum.SimpleSituation (
-            "<h1>La casa de tu familia</h1>\
+            "<h1>LA CASA DE TU FAMILIA</h1>\
             <p>Te estás dirigiendo a tu casa, y ves en la entrada dos hombres del Conde Haraldson custodiando la puerta.\
             Cuando te acercas, uno de ellos te advierte que no puedes entrar, pues el Conde exige verte inmediatamente.\
             <img width=500 height=535 src='./media/img/ragnar2.jpg'>\
             Tú, Ragnar Lothbrok, un vikingo legendario, del cual las leyendas dicen que desciendes del mismísimo Odín, te contienes\
-             y decides calmarte e <a href='verconde'>ir a visitar al Conde,</a>\
+             y decides calmarte e <a href='verconde2'>ir a visitar al Conde,</a>\
 			pues no quieres crear problemas, al menos, no tan pronto.\
             </p>",
             {
@@ -123,21 +138,95 @@ undum.game.situations = {
             }
         ),
 		
-		 verfamiliafinalconde: new undum.SimpleSituation (
-            "<p>El conde te agradece tu actitud y permite que vayas a ver a tu familia.</p>\
-			<h1>LA CASA DE TU FAMILIA</h1>\
-			<p>Tras mucho tiempo, por fin te reencuentras con tu familia, sois felices y coméis perdices.<br>\
-            <img height=313 width=500 src='./media/img/familia_ragnar.jpg'>\
-            <h1>FIN</h1>"
+		 pagasyteencierran: new undum.SimpleSituation (
+            "<h1>EL ARRESTO DE RAGNAR</h1>\
+            <p>El Conde ordena a sus hombres que alzen sus armas. Todo este tiempo sin ti en la tribu ha sido\
+            demasiado tranquilo, tu ausencia era reconfortante para el condado, y el Conde no está dispuesto a que esa situación cambie.\
+            Haraldson te detiene provisonalmente, cree que estás conspirando contra él y no se fía de ti.</p>\
+            <br/><p><a href='./actualizatexto'>Aún así, esto no acaba aquí...</a></p>\
+            ",
+            {
+                actions: {
+                    'actualizatexto': function(character, system, from){
+                        system.setCharacterText("<p>¡Ahora eres Lagertha! Lagertha es la mujer de Ragnar, y es una de las vikingas más famosas del mundo nórdico. \
+                            Es conocida por ser una grandiosa guerrera y escudera, y por haber participado y vencido en innumerables batallas.</p>");
+                        system.doLink('cambioprotagonista');
+                    }
+                }
+            }
         ),
 		
-		finalmalo: new undum.SimpleSituation (
+		encarcelado: new undum.SimpleSituation (
             "<h1>EL ARRESTO DE RAGNAR</h1>\
             <p>Ante tal estúpida idea, los soldados alzan sus armas y te bloquean el paso, eres detenido, te quitan todo el tesoro y te llevan preso.\
             <img src='./media/img/final_malo.jpg'>\
             <p>¿A quién se le ocurriría hacer tal cosa? Esto no es ciencia ficción.</p>\
-            <h1>FIN</h1>"
+            <p><a href='./actualizatexto'>Aún así, esto no acaba aquí...</a></p>",
+            {
+                actions: {
+                    'actualizatexto': function(character, system, from){
+                        system.setCharacterText("<p>¡Ahora eres Lagertha! Lagertha es la mujer de Ragnar, y es una de las vikingas más famosas del mundo nórdico. \
+                            Es conocida por ser una grandiosa guerrera y escudera, y por haber participado y vencido en innumerables batallas.</p>");
+                        system.doLink('cambioprotagonista');
+                    }
+                }
+            }
+        ),
+
+        cambioprotagonista: new undum.SimpleSituation (
+            "<h1>LAGERTHA</h1>\
+            <p>\
+            <br/>Puedes <a href='./cogerespada'>coger la espada corta que te ofrece el espía</a> o <a href='./cogerhachayescudo'>coger tu hacha y escudo</a>\
+            Puedes <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, o <a href='hablarconde'>ir a hablar con el Conde\
+            para conseguir salir de esta situación<p/>",
+            {
+                actions: {
+                    'cogerespada': function(character, system, from){
+                        system.setCharacterText("Has cogido una espada.");
+                        system.setQuality("corona", false);
+                        system.setQuality("monedas", 0);
+                        system.setQuality("espada", false);
+                        system.qualities.setQuality("hacha", false);
+                        system.qualities.setQuality("escudo", false)
+                        system.qualities.setQuality("espada", true);
+                    },
+                    'cogerhachayescudo': function(character, system, from){
+                        system.setCharacterText("Has cogido tu hacha y escudo.");
+                        system.setQuality("corona", false);
+                        system.setQuality("monedas", 0);
+                        system.setQuality("espada", false);
+                        system.qualities.setQuality("hacha", true);
+                        system.qualities.setQuality("escudo", true);
+                    }
+                }
+            }
+        ), 
+
+        hablarconde: new undum.SimpleSituation (
+            "<h1>El salon del Conde</h1>\
+            --redactar--\
+            <h1>FIN</h1>\
+            "
+        ),
+
+
+        movilizartropas: new undum.SimpleSituation (
+            "<h1>TROPAS</h1>\
+            <p>--redactar--\
+            Puedes <a href='ataquetropas'>comandar a tus tropas para provocar un enfrentamiento brutal</a> o\
+            como no quieres derramar la sangre de tu pueblo, <a href='mediarconde'>conversas con el Conde para que se rinda, libere a Ragnar\
+             y se exilie del condado.</a><p/>\
+            "
+        ),
+
+        ataquetropas: new undum.SimpleSituation (
+            ""
+        ),
+
+        mediarconde: new undum.SimpleSituation (
+
         )
+
 };
 
 // ---------------------------------------------------------------------------
@@ -157,7 +246,13 @@ undum.game.qualities = {
     ),
     monedas: new undum.IntegerQuality(
         "Monedas de oro", {priority:"0001", group:'stats'}
-    )
+    ),
+    hacha: new undum.OnOffQuality(
+        "Hacha", {priority:"0001", group:'stats'}
+    ),
+    escudo: new undum.OnOffQuality(
+        "Escudo", {priority:"0001", group:'stats'}
+    ),
 };
 
 // ---------------------------------------------------------------------------
