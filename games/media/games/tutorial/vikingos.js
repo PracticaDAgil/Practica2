@@ -245,10 +245,20 @@ undum.game.situations = {
         ),
 
         ataquetropas: new undum.SimpleSituation (
-            ""
+            "<h1>ENFRENTAMIENTO BRUTLA </h1>\
+			Como el Conde no libera a Lagertha, las tropas vikingas se enfrentamiento duramente con las tropas del Conde, para saberla.\
+			Pues <a href='ganar'> las tropas del Conde son débiles (porque solo tienen posturero) y  buen material para el enfrentamiento no. \
+			Por lo que las tropas vikingas ganan. ¡¡BRAVOOO!!. </a> o \
+			Los vikingos tienen un despiste y caen a un lago de cocodrilos y pierden todo el material de combate.\
+			<h1>FIN</h1>\
+			" 
         ),
 
         mediarconde: new undum.SimpleSituation (
+		
+			"<h1>POSIBLE RENDIMIENTO DEL CONDE</h1>\
+			En realidad, los vikingos no somos tan malos, por lo que damos un voto de confianza al Conde para que se rinda y nos devuelva Lagertha, sin problemas ningún tipo de problemas, porque todo el mundo comete errores...\
+			Por lo que <a href='¿Qué decide el Conde hacer?'> </a> \
 
         )
 
