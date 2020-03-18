@@ -28,14 +28,6 @@ undum.game.slideUpSpeed = 500
 
 /* The situations that the game can be in. Each has a unique ID. */
 undum.game.situations = {
-    start: new undum.SimpleSituation(
-        "",
-        {
-                enter: function(character, system, from) {
-                    system.doLink('introduccion');
-                }   
-            }
-        ),
     introduccion: new undum.SimpleSituation (
             "<h1>La tribu de Kattegat</h1><p>Acabas de llegar a <a href='https://vikings.fandom.com/es/wiki/Kattegat' class='raw' target='_new'>Kattegat.</a>\
             Tras un saqueo el cual ha sido muy exitoso, por fin estás de vuelta en casa.\
@@ -199,8 +191,8 @@ undum.game.situations = {
                         system.setQuality("corona", false);
                         system.setQuality("monedas", false);
                         system.setQuality("espada", false);
-                        system.qualities.setQuality("hacha", true);
-                        system.qualities.setQuality("escudo", true);
+                        system.setQuality("hacha", true);
+                        system.setQuality("escudo", true);
                         system.setCharacterText("<p>Has cogido tu hacha y escudo.</p>");
                         system.doLink('postcambio');
                     }
@@ -231,42 +223,58 @@ undum.game.situations = {
 
         movilizartropas: new undum.SimpleSituation (
             "<h1>TROPAS</h1>\
-            Ordenas a tus dos soldados de mayor confianza que llamen a todos los seguidores de Ragnar. Estos, suponen prácticamente la mitad de la tribu\
-            y sin duda, lucharían a muerte por liberarle.\
-            Puedes <a href='ataquetropas'>comandar a tus tropas para provocar un enfrentamiento brutal</a> o\
-            como no quieres derramar la sangre de tu pueblo, <a href='mediarconde'>presionas al Conde para que se rinda, libere a Ragnar\
-             y se exilie del condado.</a><p/>\
-            ",
-            {
+            <p>Ordenas a tus dos soldados de mayor confianza que llamen a todos los seguidores de Ragnar. Estos, suponen prácticamente la mitad de la tribu y sin duda, lucharían a muerte por liberarle.</p>\
+            <p>Puedes <a href='combatemuerte'>comandar a tus tropas para provocar un enfrentamiento brutal</a> o como no quieres derramar la sangre de tu pueblo, <a href='rendicionconde'>presionas al Conde para que se rinda, libere a Ragnar y se exilie del condado.</a><p/>"
+            ,{
                 enter: function(character, system, from) {
                     system.setCharacterText("<p>Este es tu inventario</p>");
                 }
             }
         ),
 
-        ataquetropas: new undum.SimpleSituation (
-            "<h1>ENFRENTAMIENTO BRUTLA </h1>\
-			Como el Conde no libera a Lagertha, las tropas vikingas se enfrentamiento duramente con las tropas del Conde, para saberla.\
-			Pues <a href='ganar'> las tropas del Conde son débiles (porque solo tienen posturero) y  buen material para el enfrentamiento no. \
-			Por lo que las tropas vikingas ganan. ¡¡BRAVOOO!!. </a> o \
-			Los vikingos tienen un despiste y caen a un lago de cocodrilos y pierden todo el material de combate.\
-			<h1>FIN</h1>\
-			" 
+//        ataquetropas: new undum.SimpleSituation (
+//            "<h1>ENFRENTAMIENTO BRUTLA </h1>\
+//            Como el Conde no libera a Lagertha, las tropas vikingas se enfrentamiento duramente con las tropas del Conde, para saberla.\
+//            Pues <a href='ganar'> las tropas del Conde son débiles (porque solo tienen posturero) y  buen material para el enfrentamiento no. \
+//            Por lo que las tropas vikingas ganan. ¡¡BRAVOOO!!. </a> o \
+//            Los vikingos tienen un despiste y caen a un lago de cocodrilos y pierden todo el material de combate.\
+//            <h1>FIN</h1>"
+//        ),
+        rendicionconde: new undum.SimpleSituation(
+            "<p>El Conde Haraldson conocedor de su enorme y poderoso ejército no tiene intención de darse por vencido tan fácilmente y no te va a dejar escapar sin antes combatir contra su ejército hasta la muerte...</p>\
+            <p>Sabes que el Conde es un gran combatiente y tienes pocas posibilidades de salir victoriosa de este <a href='combatemuerte'>combate a muerte</a> por lo que piensas en la posibilidad de negociar y llegar a algún tipo de <a href='negociasacuerdo'>acuerdo</a>.</p>"
         ),
-
-        mediarconde: new undum.SimpleSituation (
-		
-			"<h1>POSIBLE RENDIMIENTO DEL CONDE</h1>\
-			En realidad, los vikingos no somos tan malos, por lo que damos un voto de confianza al Conde para que se rinda y nos devuelva Lagertha, sin problemas ningún tipo de problemas, porque todo el mundo comete errores...\
-			Por lo que <a href='¿Qué decide el Conde hacer?'> </a> \
-
+        combatemuerte: new undum.SimpleSituation(
+            "<h2>Combate a muerte</h2>\
+            <p>Eres Lagertha, la legendaria guerrera mujer de Ragnar, y has decidido batirte en un sangriente combate contra las tropas del Conde Haraldson.</p>\
+            <p>Estás exhausta tras el largo y sangriente combate, pero gracias a tu valor y al de tus incansables guerreros y guerreras conseguís derrotar al Conde Haraldson y rescatar a tu esposo, el legendario vikingo Ragnar.</p>\
+            <p>Finalmente Ragnar en un acto de agradecimiento máximo te ofrece celebrar el rescate <a href='mamajuana'>bebiendo</a> como buenos vikingos o con una <a href='fiestabarco'>exploración</a> por el mediterráneo</p>"
+        ),
+        mamajuana: new undum.SimpleSituation(
+            "<p>Como buenos vikingos han decidido celebrar la victoria bebiendo y para ello deciden tomarse una copa de mamajuana del cráneo del Conde Haraldson y demostrar así quien manda en sus tierras.</p>\
+            <h2>FIN</h2>"
+        ),
+        fiestabarco: new undum.SimpleSituation(
+            "<p>Tal y como Ragnar le prometió a Lagertha se la lleva de exploración pero no una exploración cualquiera sino la mayor exploración jamás vista, donde se apuntan todos los guerreros vikingos que lucharon junto a Lagertha y los jóvenes de la ciudad, lo que se convierte en un auténtico crucero por el Mediterraneo con fiestas y alcohol sin fin.</p>\
+            <h2>Sin duda los vikingos si que sabían divertirse</h2>"
+        ),
+        negociasacuerdo: new undum.SimpleSituation(
+            "<h2>Negocias solución diplomática</h2>\
+            <p>Sabedora del poder del Conde y su ejército decides negociar y tomar una decisión diplomática donde no haya que derramar sangre.</p>\
+            <p>El Conde te pide una cantidad de 500 monedas de oro y 4.500 monedas de plata para cerrar el trato. Aunque ese trato te dejará en la ruina aceptas pero eso si, sin antes celebrar el acuerdo <a href='estrecharmano'>estrechando la mano con el Conde Haraldson</a>.</p>"
+        ),
+        estrecharmano: new undum.SimpleSituation(
+            "<h3>El estrechamiento envenenado</h3>\
+            <p>Para cerrar el acuerdo tú, Lagertha, y el Conde Haraldson os estrechais la mano.</p>\
+            <p>Tras el estrechamiento tú y tus guerreros os disponeis a marcharos cuando el Conde empieza a marearse y acaba de bruces contra el suelo... ¡Está muerto! Exclama su mujer mientras tu y tus guerreros aprovechais para acabar con su ejército y liberar a Ragnar.</p>\
+            <p>El Conde ha sido envenenado con tetrodotoxina, un veneno egipcio que Ragnar encontró en su viaje por los paises del Mediterraneo. Ahora ese veneno lo ha salvado y vuelve a ser libre.</p>\
+            <h2>FIN</h2>"
         )
-
 };
 
 // ---------------------------------------------------------------------------
 /* The Id of the starting situation. */
-undum.game.start = "start";
+undum.game.start = "introduccion";
 
 // ---------------------------------------------------------------------------
 /* Here we define all the qualities that our characters could
