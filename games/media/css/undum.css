@@ -194,6 +194,11 @@ img.float_left {
     margin: 1.1em 1.1em 1.1em 0;
 }
 
+img.float_right {
+    float: right;
+    margin: 1.1em 0 1.1em 1.1em;
+}
+
 #toolbar {
     display: none;
 }
