@@ -18,3 +18,18 @@
 ## url del tablero Trello 
 
 https://trello.com/b/lOZgwuLS/práctica2agil
+
+
+## Práctica 4 Sprint 2. "PRODUCT OWNER NO HA PROGRAMADO (Mª Teresa González Perona)"
+
+![Captura Trello](/Trello/ProductBacklogSprint2.PNG)
+
+### Explicacion de elegir tareas Sprint2
+
+
+
+![Captura Trello](/Trello/Sprint2ysubtareas.PNG)
+
+
+
+
