@@ -70,7 +70,7 @@
 
         <div id="character_panel" class="tools right">
           <h1><em>Ragnar Lothbrok</em></h1>
-          <img height="200" width="160" src="./media/img/ragnar1.jpg" alt="Imagen protagonista de la historia" />
+          <img id="img-prota" height="200" width="160" src="./media/img/ragnar1.jpg" alt="Imagen protagonista de la historia" />
           <div id="character">
             <div id="character_text">
               <div id="character_text_content"></div>
@@ -248,5 +248,10 @@
     <!-- Change the name of this file. It is your main game file. -->
     <script type="text/javascript"
             src="media/games/tutorial/vikingos.js"></script>
+    <script type="text/javascript">
+        function cambiaProta(){
+            document.getElementById("img-prota").src="./media/img/lagertha.jpg";
+        }
+    </script>
   </body>
 </html>

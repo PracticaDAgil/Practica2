@@ -134,7 +134,7 @@ undum.game.situations = {
             <p>El Conde ordena a sus hombres que alzen sus armas. Todo este tiempo sin ti en la tribu ha sido\
             demasiado tranquilo, tu ausencia era reconfortante para el condado, y el Conde no está dispuesto a que esa situación cambie.\
             Haraldson te detiene provisonalmente, cree que estás conspirando contra él y no se fía de ti.</p>\
-            <p><a href='./actualizatexto'>Aún así, esto no acaba aquí...</a></p>\
+            <p><a onclick='cambiaProta()' href='./actualizatexto'>Aún así, esto no acaba aquí...</a></p>\
             ",
             {
                 actions: {
@@ -155,7 +155,7 @@ undum.game.situations = {
             <p>Ante tal estúpida idea, los soldados alzan sus armas y te bloquean el paso, eres detenido, te quitan todo el tesoro y te llevan preso.\
             <img src='./media/img/final_malo.jpg'></p>\
             <p>¿A quién se le ocurriría hacer tal cosa? Esto no es ciencia ficción.</p>\
-            <p><a href='./actualizatexto'>Aún así, esto no acaba aquí...</a></p>",
+            <p><a onclick='cambiaProta()' href='./actualizatexto'>Aún así, esto no acaba aquí...</a></p>",
             {
                 actions: {
                     'actualizatexto': function(character, system, from){
