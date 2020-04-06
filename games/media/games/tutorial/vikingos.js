@@ -162,7 +162,7 @@ undum.game.situations = {
                         system.setQuality("espada", false);
                         system.setQuality("monedas", 0);
                         system.setCharacterText("<p>¡Ahora eres Lagertha! Lagertha es la mujer de Ragnar, y es una de las vikingas más famosas del mundo nórdico. \
-                            Es conocida por ser una grandiosa guerrera y escudera, y por haber participado y vencido en innumerables batallas.</p>");
+                            Es conocida por ser una grandiosa guerrera escudera, y por haber participado y vencido en innumerables batallas.</p>");
                         system.doLink('cambioprotagonista');
                     }
                 }
@@ -171,10 +171,9 @@ undum.game.situations = {
 
         cambioprotagonista: new undum.SimpleSituation (
             "<h1>LAGERTHA</h1>\
-            <p>Un espía que se encontraba en el lugar en el que fue detenido Ragnar se acerca a tu casa. <img class='float_left' src='./media/img/lagertha.jpg' width='233' alt='Cambio de protagonista' /> El espía se acerca y te comenta lo sucedido.\
-            Tras enterarte, nerviosa y enfadada, pero decidida, piensas en cómo actuar. Pero antes de nada, poco vas a poder a hacer sin un arma.</p>\
-            <p>Puedes coger <a href='./cogerespada'>la espada corta</a>  que te ofrece el espía o coger tu  <a href='./cogerhachayescudo'>hacha y escudo</a>\
-            </p>",
+            <p>Un espía que se encontraba en el lugar en el que fue detenido Ragnar se acerca a tu casa. El espía se acerca y te comenta lo sucedido.\
+            Tras enterarte, nerviosa y enfadada, pero decidida, piensas en cómo actuar. Pero antes de nada, poco vas a poder a hacer sin un arma. \
+            <br/>Puedes coger <a href='./cogerespada'>la espada corta</a>  que te ofrece el espía o  <a href='./cogerhacha'>mirar detalladamente</a> qué hay en el lugar.<p/>",
             {
                 actions: {
                     'cogerespada': function(character, system, from){
@@ -186,14 +185,14 @@ undum.game.situations = {
                         system.setCharacterText("<p>Has cogido una espada.</p>");
                         system.doLink('postcambio');
                     },
-                    'cogerhachayescudo': function(character, system, from){
+                    'cogerhacha': function(character, system, from){
                         system.setQuality("corona", false);
                         system.setQuality("monedas", false);
                         system.setQuality("espada", false);
                         system.setQuality("hacha", true);
                         system.setQuality("escudo", true);
                         system.setCharacterText("<p>Has cogido tu hacha y escudo.</p>");
-                        system.doLink('postcambio');
+                        system.doLink('postcambio2');
                     }
                 }
             }
@@ -202,6 +201,12 @@ undum.game.situations = {
         postcambio: new undum.SimpleSituation (
             "<p>Puedes <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, o <a href='hablarconde'>ir a hablar con el Conde\
             para conseguir salir de esta situación</p>"
+        ),
+        postcambio2: new undum.SimpleSituation (
+            "<p>Al mirar en el lugar has encontrado un escudo y tu hacha que usabas en las batallas, te trae buenos recuerdos por las muchas batallas que\
+            ganaste en el pasado con ese arma. Así que la recoges antes de <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, \
+            o <a href='hablarconde'>ir a hablar con el Conde</a>\
+            para conseguir salir de esta situación.</p>"
         ),
 
         hablarconde: new undum.SimpleSituation (
@@ -218,7 +223,6 @@ undum.game.situations = {
                 }
             }
         ),
-
 
         movilizartropas: new undum.SimpleSituation (
             "<h1>TROPAS</h1>\
