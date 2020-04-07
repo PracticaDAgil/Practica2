@@ -69,7 +69,7 @@
         </div>
 
         <div id="character_panel" class="tools right">
-          <h1><em>Ragnar Lothbrok</em></h1>
+          <h1><em id="name-prota">Ragnar Lothbrok</em></h1>
           <img id="img-prota" height="200" width="160" src="./media/img/ragnar1.jpg" alt="Imagen protagonista de la historia" />
           <div id="character">
             <div id="character_text">
@@ -251,6 +251,7 @@
     <script type="text/javascript">
         function cambiaProta(){
             document.getElementById("img-prota").src="./media/img/lagertha.jpg";
+            document.getElementById("name-prota").innerHTML="Lagertha";
         }
     </script>
   </body>
