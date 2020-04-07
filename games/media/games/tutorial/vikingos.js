@@ -73,7 +73,8 @@ undum.game.situations = {
         ),
         pedirdisculpas: new undum.SimpleSituation(
             "<h1>El agradecimiento del conde</h1><p>El Conde te agradece las disculpas pero como es costumbre, te exige el pago de una parte del tesoro como impuestos del condado. Como te has disculpado\
-             solo te pide un tercio del tesoro. Y tú decides entregarle <a href='./darmonedas'>cuarenta monedas de oro</a> o <a href='./darcorona'> darle la corona de plata</a></p>",
+             solo te pide un tercio del tesoro. Y tú decides entregarle <a href='./darmonedas'>cuarenta monedas de oro</a>, darle<a href='./darcorona'> la corona de plata</a> o prefieres antes \
+            <a href='./mirard'>mirar detalladamente</a> en tu bolsa para ver si tienes algo más de valor.</p>",
              {
                  actions:{ 
                     'darmonedas': function( character, system, action) {
@@ -85,10 +86,44 @@ undum.game.situations = {
                         system.setCharacterText( "<p>Te has quedado sin corona.</p>" );
                         system.setQuality("corona", false);
                         system.doLink('pagasyteencierran');
+                    },
+                    'mirard': function( character, system, action){
+                        system.setCharacterText("<p>Has descubierto la vieja cruz de plata que tenías guardada</p>");
+                        system.setQuality("cruzplata", true);
+                        system.doLink('mirardet');
                     }
                 }
             }
         ),
+        mirardet: new undum.SimpleSituation(
+            "<p>Buscando en la bolsa encuentras una antiguo colgante con una cruz plateada, en ese momento recuerdas que la llevabas porque perteneció a \
+            un monje cristiano que tuviste como rehén, pero el cuál acabo haciéndose amigo tuyo durante un viaje, tanto que acabaste convirtiéndote al \
+            cristianismo aunque esto no lo sabe nadie. \
+            <img width=450 align='center' src='./media/img/cruz.jpg'><br/>\
+            Por tanto, tienes que decidir si entregarle <a href='./darcruz'>la cruz del monje</a>, la cual tiene mucho valor sentimental,  \
+            entregarle <a href='./darmonedas'>cuarenta monedas de oro</a>, o darle<a href='./darcorona'> la corona de plata</a> \
+            </p>",
+            {
+                actions:{ 
+                    'darcruz': function( character, system, action) {
+                        system.setCharacterText("<p>Te has quedado sin la cruz de plata de tu viejo amigo.</p>");
+                        system.setQuality("cruzplata", false);
+                        system.doLink('pagasyteencierran');
+                    },
+                    'darmonedas': function( character, system, action) {
+                        system.setCharacterText( "<p>Te has quedado con sesenta monedas.</p>" );
+                        system.setQuality("monedas", 60);
+                        system.doLink('pagasyteencierran');
+                    },
+                    'darcorona': function( character, system, action) {
+                        system.setCharacterText( "<p>Te has quedado sin corona.</p>" );
+                        system.setQuality("corona", false);
+                        system.doLink('pagasyteencierran');
+                    }
+                }
+            }
+        ),
+
         deberfamilia: new undum.SimpleSituation(
             "<h1>El desafio al Conde</h1><p>El Conde se enfada ante tu actitud egoísta y te exige la corona y la mitad de las monedas como pago de impuestos para el condado.</p>\
             <p><img align='middle' width='450' src='./media/img/conde2.jpg'>\
@@ -302,6 +337,9 @@ undum.game.qualities = {
     espadacorta: new undum.OnOffQuality(
         "Espada corta", {priority:"0001", group:'stats'}
     ),
+    cruzplata: new undum.OnOffQuality(
+        "Cruz de plata", {priority:"0001", group:'stats'}
+    ),
 };
 
 // ---------------------------------------------------------------------------
@@ -325,5 +363,6 @@ undum.game.init = function(character, system) {
     character.qualities.escudo = 0;
     character.qualities.hacha = 0;
     character.qualities.espadacorta = 0;
-    system.setCharacterText("<p>Comienzas con un tesoro en tu poder.</p>");
+    character.qualities.cruzplata = 0;
+    system.setCharacterText("<p>Comienzas con un tesoro en tu poder. En el que tienes una bolsita de 100 monedas de oro, una corona y una espada.</p>");
 };
