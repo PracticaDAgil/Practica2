@@ -32,6 +32,7 @@ undum.game.situations = {
             "<h1>La tribu de Kattegat</h1><p>Acabas de llegar a <a href='https://vikings.fandom.com/es/wiki/Kattegat' class='raw' target='_new'>Kattegat.</a>\
             Tras un saqueo el cual ha sido muy exitoso, por fin estás de vuelta en casa.\
             Y traes contigo un tesoro de cien monedas de oro, una corona de plata y una espada.\
+			<img width='450' src='./media/img/tesoro-vikingo.jpg'></p>\
             <img width='450' src='./media/img/kattegat1.png'></p>\
             <p>Al entrar en la tribu, recuerdas que Kattegat está gobernado por el\
             <a href='https://vikings.fandom.com/es/wiki/Conde_Haraldson' class='raw' target='_new'>Conde Haraldson,</a>\
@@ -72,7 +73,9 @@ undum.game.situations = {
             }
         ),
         pedirdisculpas: new undum.SimpleSituation(
-            "<h1>El agradecimiento del conde</h1><p>El Conde te agradece las disculpas pero como es costumbre, te exige el pago de una parte del tesoro como impuestos del condado. Como te has disculpado\
+            "<h1>El agradecimiento del conde</h1>\
+			<p><img align='middle' width='450' src='./media/img/50monedas_corona.png'>\
+			<p>El Conde te agradece las disculpas pero como es costumbre, te exige el pago de una parte del tesoro como impuestos del condado. Como te has disculpado\
              solo te pide un tercio del tesoro. Y tú decides entregarle <a href='./darmonedas'>cuarenta monedas de oro</a>, darle<a href='./darcorona'> la corona de plata</a> o prefieres antes \
             <a href='./mirard'>mirar detalladamente</a> en tu bolsa para ver si tienes algo más de valor.</p>",
              {
@@ -166,6 +169,7 @@ undum.game.situations = {
 		
 		 pagasyteencierran: new undum.SimpleSituation (
             "<h1>EL ARRESTO DE RAGNAR</h1>\
+			<p><img align='middle' width='450' src='./media/img/50monedas_corona.png'>\
             <p>El Conde ordena a sus hombres que alzen sus armas. Todo este tiempo sin ti en la tribu ha sido\
             demasiado tranquilo, tu ausencia era reconfortante para el condado, y el Conde no está dispuesto a que esa situación cambie.\
             Haraldson te detiene provisonalmente, cree que estás conspirando contra él y no se fía de ti.</p>\
