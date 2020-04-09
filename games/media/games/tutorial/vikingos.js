@@ -210,6 +210,7 @@ undum.game.situations = {
 
         cambioprotagonista: new undum.SimpleSituation (
             "<h1>LAGERTHA</h1>\
+			<p><img align='middle' width='450' src='./media/img/armaslaga.jpg'>\
             <p>Un espía que se encontraba en el lugar en el que fue detenido Ragnar se acerca a tu casa. El espía se acerca y te comenta lo sucedido.\
             Tras enterarte, nerviosa y enfadada, pero decidida, piensas en cómo actuar. Pero antes de nada, poco vas a poder a hacer sin un arma. \
             <br/>Puedes coger <a href='./cogerespada'>la espada corta</a>  que te ofrece el espía o  <a href='./cogerhacha'>mirar detalladamente</a> qué hay en el lugar.<p/>",
