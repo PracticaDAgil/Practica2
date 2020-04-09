@@ -19,10 +19,6 @@
 
 https://trello.com/b/lOZgwuLS/práctica2agil
 
-## url sitio web Público
-
-https://vikingsundum.000webhostapp.com/
-
 
 ## Práctica 4 Sprint 2. "PRODUCT OWNER NO HA PROGRAMADO (Mª Teresa González Perona)"
 
@@ -36,4 +32,7 @@ https://vikingsundum.000webhostapp.com/
 
 
 
+## url sitio web Público
+
+https://vikingsundum.000webhostapp.com/
 
