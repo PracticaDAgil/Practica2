@@ -1,0 +1,13 @@
+.dialogo{
+    color: #8c8c8c;
+    font-style: italic;
+    padding-left: 2em;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+
+.ayuda{
+    color: #987;
+    cursor: pointer;
+    text-decoration: underline;
+}

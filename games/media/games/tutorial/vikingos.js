@@ -239,18 +239,34 @@ undum.game.situations = {
         ), 
 
         postcambio: new undum.SimpleSituation (
-            "<p>Puedes <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, o <a href='hablarconde'>ir a hablar con el Conde\
+            "<p>Puedes <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, o <a href='hablarcondepuzzle'>ir a hablar con el Conde\
             para conseguir salir de esta situación</p>"
         ),
         postcambio2: new undum.SimpleSituation (
             "<p>Al mirar en el lugar has encontrado un escudo y tu hacha que usabas en las batallas, te trae buenos recuerdos por las muchas batallas que\
             ganaste en el pasado con ese arma. Así que la recoges antes de <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, \
-            o <a href='hablarconde'>ir a hablar con el Conde</a>\
+            o <a href='hablarcondepuzzle'>ir a hablar con el Conde</a>\
             para conseguir salir de esta situación.</p>"
         ),
-
+        hablarcondepuzzle: new undum.SimpleSituation (
+            "<p>Has decidido ir a visitar al Conde pero eres arrestada como prisionera por los guardianes de la ciudad.</p><p>Gimli, el vikingo más temido de los últimos tiempos, es el jefe de las tropas al servicio del Conde, ha librado muchas batallas junto a tí\
+            y a Ragnar, por lo que te ofrece una oportunidad para seguir con vida. Si eres capaz de resolver correctamente el siguiente puzzle te dejará con vida y podrás hablar con el Conde.</p>\
+            <p class='dialogo'>Ahora todo depende de tu destreza y si eres capaz de acertar el siguiente acertijo:</p>\
+            <h2>ACERTIJO</h2>\
+            <p class='dialogo'>Hay cinco engranajes conectados, el primero está conectado al segundo, el segundo está conectado al tercero y así en adelante.</p>\
+            <p class='dialogo'>¿A qué velocidad giraría el último engranaje si el segundo engranaje tuviera el doble del tamaño del primero, y todos los otros engranajes tuvieran el mismo tamaño del primero?</p>\
+            <h3>OPCIONES ACERTIJO</h3>\
+            <ul><li><a href='fallaacertijo'>Más rápido.</a></li><li><a href='fallaacertijo'>Más lento.</a></li><li><a href='hablarconde'>A la misma velocidad.</a></li></ul>\
+            <p class='ayuda' onclick='ayuda()' >Necesito ayuda con el acertijo</p>"
+        ),
+        fallaacertijo: new undum.SimpleSituation (
+            "<h2>Has fallado el acerijo</h2>\
+            <p>No has elegido la opción correcta y Gimli ha ordenado matarte. Tu historia acaba aquí, quizás la próxima vez elijas mejor tu camino y consigas salvar a Ragnar.</p>\
+            <h2>FIN</h2>"
+        ),
         hablarconde: new undum.SimpleSituation (
             "<h1>EL SALON DEL CONDE</h1>\
+            <p>Has elegido bien, demostraste ser una persona inteligente y Gimli te libera como prometió y continuas tu camino.</p>\
             <p>Entras al salón del conde para hablar con él. Haraldson se encuentra en su trono mirándote friamente, pues sabía que\
             no te ibas a tomar bien detención de Ragnar.<img class='float_right' src='./media/img/derrota-vikinga.jpg' width='300' alt='Derrota vikinga' /> Desesperada, exiges que libere a Ragnar, amenazándole con atacarle con tus tropas.\
             Tras la amenaza sus soldados levantan sus armas, dirigiéndose a ti. El Conde, tras un incómodo momento, ordena que te detengan a ti también.</p>\
@@ -344,7 +360,7 @@ undum.game.qualities = {
     ),
     cruzplata: new undum.OnOffQuality(
         "Cruz de plata", {priority:"0001", group:'stats'}
-    ),
+    )
 };
 
 // ---------------------------------------------------------------------------
