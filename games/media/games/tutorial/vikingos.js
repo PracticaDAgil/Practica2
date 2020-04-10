@@ -32,11 +32,11 @@ undum.game.situations = {
             "<h1>La tribu de Kattegat</h1><p>Acabas de llegar a <a href='https://vikings.fandom.com/es/wiki/Kattegat' class='raw' target='_new'>Kattegat.</a>\
             Tras un saqueo el cual ha sido muy exitoso, por fin estás de vuelta en casa.\
             Y traes contigo un tesoro de cien monedas de oro, una corona de plata y una espada.\
-			<img width='450' src='./media/img/tesoro-vikingo.jpg'></p>\
-            <img width='450' src='./media/img/kattegat1.png'></p>\
+			<img width='480' src='./media/img/tesoro-vikingo.jpg'></p>\
             <p>Al entrar en la tribu, recuerdas que Kattegat está gobernado por el\
             <a href='https://vikings.fandom.com/es/wiki/Conde_Haraldson' class='raw' target='_new'>Conde Haraldson,</a>\
             con el cual tuviste tus rencillas en el pasado, y no os tenéis mucho aprecio.\
+            <img width='480' src='./media/img/kattegat1.png'></p>\
             Estás deseoso de conseguir quitarle el trono a Haraldson, aunque no va a ser nada fácil.<\p>\
             <p>Al entrar a la tribu puedes ir a <a href='verfamilia'>visitar a tu familia,</a> la cual llevas varias \
             semanas sin ver, o <a href='verconde1'>ir a ver al Conde Haraldson,</a> el cual ya ha sido advertido de tu \
@@ -45,9 +45,9 @@ undum.game.situations = {
 		
         verconde1: new undum.SimpleSituation (
             "<h1>El salón del conde Haraldson</h1>\
-            <p>Al entrar al salón, Haraldson se encuentra sentado en el trono de Conde, acompañado por su mujer.\
+            <p>Al entrar al salón, Haraldson se encuentra sentado en el trono de Conde.\
             El Conde te mira con desprecio, como ya era habitual, y te echa la bronca por la tardanza, desfiante.\
-            <img width='450' src='./media/img/conde1.jpg'></p>\
+            <img width='480' src='./media/img/conde1.jpg'></p>\
             <p>Aún así, decides <a href='pedirdisculpas'>no entrar en su juego y pedirle disculpas\
             por ello</a> ya que no es un buen momento ni lugar para provocar una trifulca.\
             </p>",
@@ -59,7 +59,7 @@ undum.game.situations = {
         ),
         verconde2: new undum.SimpleSituation (
             "<h1>El salón del conde Haraldson</h1>\
-            <p>Al entrar al salón, Haraldson se encuentra sentado en el trono de Conde, acompañado por su mujer.\
+            <p>Al entrar al salón, Haraldson se encuentra sentado en el trono de Conde.\
             Te observa fijamente, la tensión es insoportable, y malhumorado, te acaba diciendo:<br>  &nbsp&nbsp&nbsp<i>-Vuelves de un saqueo, y en vez de cumplir con tu obligación, la cual\
             es venir a pagar el correspondiente tributo al condado, te vas a tu casa. Los barcos que te presté para el viaje no fueron precisamente porque me caigas bien, \
             ¿o es que pensabas esconder lo que has saqueado?</i></p>\
@@ -74,8 +74,8 @@ undum.game.situations = {
         ),
         pedirdisculpas: new undum.SimpleSituation(
             "<h1>El agradecimiento del conde</h1>\
-			<p><img align='middle' width='450' src='./media/img/50monedas_corona.png'>\
-			<p>El Conde te agradece las disculpas pero como es costumbre, te exige el pago de una parte del tesoro como impuestos del condado. Como te has disculpado\
+            <p>El Conde te agradece las disculpas pero como es costumbre, te exige el pago de una parte del tesoro como impuestos del condado.<br>\
+            <img align='middle' width='450' src='./media/img/50monedas_corona.png'> <br> Como te has disculpado\
              solo te pide un tercio del tesoro. Y tú decides entregarle <a href='./darmonedas'>cuarenta monedas de oro</a>, darle<a href='./darcorona'> la corona de plata</a> o prefieres antes \
             <a href='./mirard'>mirar detalladamente</a> en tu bolsa para ver si tienes algo más de valor.</p>",
              {
@@ -155,7 +155,7 @@ undum.game.situations = {
             "<h1>LA CASA DE TU FAMILIA</h1>\
             <p>Te estás dirigiendo a tu casa, y ves en la entrada dos hombres del Conde Haraldson custodiando la puerta.\
             Cuando te acercas, uno de ellos te advierte que no puedes entrar, pues el Conde exige verte inmediatamente.\
-            <img width='450' src='./media/img/ragnar2.jpg'>\
+            <img width='465' src='./media/img/ragnar3.jpg'><br>\
             Tú, Ragnar Lothbrok, un vikingo legendario, del cual las leyendas dicen que desciendes del mismísimo Odín, te contienes\
             y decides calmarte e <a href='verconde2'>ir a visitar al Conde,</a>\
             pues no quieres crear problemas, al menos, no tan pronto.\
@@ -169,7 +169,6 @@ undum.game.situations = {
 		
 		 pagasyteencierran: new undum.SimpleSituation (
             "<h1>EL ARRESTO DE RAGNAR</h1>\
-			<p><img align='middle' width='450' src='./media/img/50monedas_corona.png'>\
             <p>El Conde ordena a sus hombres que alzen sus armas. Todo este tiempo sin ti en la tribu ha sido\
             demasiado tranquilo, tu ausencia era reconfortante para el condado, y el Conde no está dispuesto a que esa situación cambie.\
             Haraldson te detiene provisonalmente, cree que estás conspirando contra él y no se fía de ti.</p>\
@@ -210,9 +209,9 @@ undum.game.situations = {
 
         cambioprotagonista: new undum.SimpleSituation (
             "<h1>LAGERTHA</h1>\
-			<p><img align='middle' width='450' src='./media/img/armaslaga.jpg'>\
             <p>Un espía que se encontraba en el lugar en el que fue detenido Ragnar se acerca a tu casa. El espía se acerca y te comenta lo sucedido.\
-            Tras enterarte, nerviosa y enfadada, pero decidida, piensas en cómo actuar. Pero antes de nada, poco vas a poder a hacer sin un arma. \
+            Tras enterarte, nerviosa y enfadada, pero decidida, piensas en cómo actuar. Pero antes de nada, poco vas a poder a hacer sin un arma. <br>\
+            <img align='middle' width='450' src='./media/img/armaslaga.jpg'> <br>\
             <br/>Puedes coger <a href='./cogerespada'>la espada corta</a>  que te ofrece el espía o  <a href='./cogerhacha'>mirar detalladamente</a> qué hay en el lugar.<p/>",
             {
                 actions: {
