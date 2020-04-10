@@ -239,12 +239,12 @@ undum.game.situations = {
         ), 
 
         postcambio: new undum.SimpleSituation (
-            "<p>Puedes <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, o <a href='hablarcondepuzzle'>ir a hablar con el Conde\
+            "<p>Puedes <a href='premovilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, o <a href='hablarcondepuzzle'>ir a hablar con el Conde\
             para conseguir salir de esta situación</p>"
         ),
         postcambio2: new undum.SimpleSituation (
             "<p>Al mirar en el lugar has encontrado un escudo y tu hacha que usabas en las batallas, te trae buenos recuerdos por las muchas batallas que\
-            ganaste en el pasado con ese arma. Así que la recoges antes de <a href='movilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, \
+            ganaste en el pasado con ese arma. Así que la recoges antes de <a href='premovilizartropas'>movilizar a tus tropas para liberar a Ragnar</a>, \
             o <a href='hablarcondepuzzle'>ir a hablar con el Conde</a>\
             para conseguir salir de esta situación.</p>"
         ),
@@ -279,26 +279,45 @@ undum.game.situations = {
                 }
             }
         ),
-
-        movilizartropas: new undum.SimpleSituation (
+        premovilizartropas: new undum.SimpleSituation (
             "<h1>TROPAS</h1>\
-            <p>Ordenas a tus dos soldados de mayor confianza que llamen a todos los seguidores de Ragnar. <img class='float_right' src='./media/img/tropas.jpg' width='250' alt='Movilizar tropas' /> Estos, suponen prácticamente la mitad de la tribu y sin duda, lucharían a muerte por liberarle.\
-            Puedes <a href='combatemuerte'>comandar a tus tropas para provocar un enfrentamiento brutal</a> o como no quieres derramar la sangre de tu pueblo, <a href='rendicionconde'>presionas al Conde para que se rinda, libere a Ragnar y se exilie del condado.</a></p>"
+            <p>Ordenas a tus dos soldados de mayor confianza que llamen a todos los seguidores de Ragnar. <img class='float_right' src='./media/img/tropas.jpg' width='250' alt='Movilizar tropas' /> Estos, suponen prácticamente la mitad de la tribu y sin duda, lucharían a muerte por liberarle.</p>\
+            <p>Decides cruzar un bosque para acortar camino y atacar a tu enemigo antes de que esté totalmente preparado y obtener así una mayor ventaja en la batalla.</p>\
+            <p>Tus tropas avanzan hasta que os encontrais el camino cortado por unos troncos enormes que no dejan continuar a tus tropas y mucho menos a los caballos y tropas pesadas.</p>"
+            ,{
+                enter: function( character, system, from ) {
+                    if(character.qualities.hacha){
+                        system.doLink("tropasconhacha");
+                    } else {
+                        system.doLink("tropassinhacha");
+                    }
+                }
+            }
+        ),
+        tropasconhacha: new undum.SimpleSituation (
+            "<p>En ese momento sacas tu hacha y comienzas a destrozar los troncos que cortan el camino. Gracias a tu destreza con el hacha las tropas consiguen continuar y obtener ventaja para el combate.</p>"
+            ,{
+                enter: function( character, system, from ) {
+                    system.doLink("movilizartropas");
+                }
+            }
+        ),
+        tropassinhacha: new undum.SimpleSituation (
+            "<p>Como no dispones de ningún arma (como un hacha) que te permita despejar el camino y continuar teneis que dar la vuelta y perder un tiempo muy valioso que puede haceros perder la batalla...</p>"
+            ,{
+                enter: function( character, system, from ) {
+                    system.doLink("movilizartropas");
+                }
+            }
+        ),
+        movilizartropas: new undum.SimpleSituation (
+            "<p>Una vez tú y tus guerreros habeis llegado al destino puedes <a href='combatemuerte'>comandar a tus tropas para provocar un enfrentamiento brutal</a> o como no quieres derramar la sangre de tu pueblo, <a href='rendicionconde'>presionas al Conde para que se rinda, libere a Ragnar y se exilie del condado.</a></p>"
             ,{
                 enter: function(character, system, from) {
                     system.setCharacterText("<p>Este es tu inventario</p>");
                 }
             }
         ),
-
-//        ataquetropas: new undum.SimpleSituation (
-//            "<h1>ENFRENTAMIENTO BRUTLA </h1>\
-//            Como el Conde no libera a Lagertha, las tropas vikingas se enfrentamiento duramente con las tropas del Conde, para saberla.\
-//            Pues <a href='ganar'> las tropas del Conde son débiles (porque solo tienen posturero) y  buen material para el enfrentamiento no. \
-//            Por lo que las tropas vikingas ganan. ¡¡BRAVOOO!!. </a> o \
-//            Los vikingos tienen un despiste y caen a un lago de cocodrilos y pierden todo el material de combate.\
-//            <h1>FIN</h1>"
-//        ),
         rendicionconde: new undum.SimpleSituation(
             "<p>El Conde Haraldson conocedor de su enorme y poderoso ejército no tiene intención de darse por vencido tan fácilmente y no te va a dejar escapar sin antes combatir contra su ejército hasta la muerte...</p>\
             <p>Sabes que el Conde es un gran combatiente y tienes pocas posibilidades de salir victoriosa de este <a href='combatemuerte'>combate a muerte</a> por lo que piensas en la posibilidad de negociar y llegar a algún tipo de <a href='negociasacuerdo'>acuerdo</a>.</p>"
