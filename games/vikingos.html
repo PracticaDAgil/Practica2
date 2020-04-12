@@ -2,8 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/jpg" href="media/img/textura1.jpg" sizes="64x64">
     <!-- Game Title: edit this -->
-    <title>Undum</title>
+    <title>Back to Kattegat</title>
     <!-- End of Game Title -->
 
     <!-- Remove this if you don't use the Tangerine font in your
@@ -14,10 +15,13 @@
     <!-- This is your game's stylesheet, modify it if you like. -->
     <link media="screen"
           rel="stylesheet" href="media/css/undum.css">
+    <!-- This is your game's stylesheet, modify it if you like. -->
+    <link rel="stylesheet" href="media/css/style.css">
 
     <!-- Suppport for mobile devices. -->
     <meta name="viewport" content="user-scalable=no, width=device-width">
     <link rel="apple-touch-icon" href="media/img/iphone/icon.png">
+	<link rel="apple-touch-startup-image" href="media/tesoro-vikingo.jpg">
     <link rel="apple-touch-startup-image" href="media/kattegat1.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -63,13 +67,13 @@
           <h1>Música</h1>
           <div>
             <p>Activa/desactiva la musica con el siguiente control: </p>
-            <audio src="./media/music/Wardruna.mp3" controls loop style="width: 160px;"></audio>  
+            <audio src="./media/music/musica.mp3" controls loop style="width: 160px;"></audio>  
           </div>
         </div>
 
         <div id="character_panel" class="tools right">
-          <h1><em>Ragnar Lothbrok</em></h1>
-          <img height= 200 width= 160 src='./media/img/ragnar1.jpg'>
+          <h1><em id="name-prota">Ragnar Lothbrok</em></h1>
+          <img id="img-prota" height="200" width="160" src="./media/img/ragnar1.jpg" alt="Imagen protagonista de la historia" />
           <div id="character">
             <div id="character_text">
               <div id="character_text_content"></div>
@@ -247,5 +251,14 @@
     <!-- Change the name of this file. It is your main game file. -->
     <script type="text/javascript"
             src="media/games/tutorial/vikingos.js"></script>
+    <script type="text/javascript">
+        function cambiaProta(){
+            document.getElementById("img-prota").src="./media/img/lagertha.jpg";
+            document.getElementById("name-prota").innerHTML="Lagertha";
+        }
+        function ayuda(){
+            alert('¿Influye en algo el tamaño del segundo engranaje?');
+        }
+    </script>
   </body>
 </html>
