@@ -20,16 +20,70 @@
 https://trello.com/b/lOZgwuLS/práctica2agil
 
 
-## Práctica 4 Sprint 2. "PRODUCT OWNER NO HA PROGRAMADO (Mª Teresa González Perona)"
-
-![Captura Trello](/Trello/ProductBacklogSprint2.PNG)
-
-### Explicacion de elegir tareas Sprint2
+## Práctica 4 Sprint 2. "PRODUCT OWNER Mª Teresa González Perona (No ha programado)"
 
 
+## Captura de pantalla de las HU que habéis decidido que formen parte del Sprint Backlog y breve explicación de porqué se han elegido esas.
+
+![Captura Trello](/Trello/Sprint2Backlog.PNG)
+
+##Como se puede observar en la captura adjuntada, para este Sprint2 se ha decidido escoger 4 HU en un principio, cada una cuenta con una etiqueta en color azul y una pegatina de un cohete para aclarar más aún que pertenece al Sprint 2. Se ha decidido poner dicho cohete ya que en “X días tendrá su vencimiento y tendrá que despegar”.
+##No obstante, lo que hay aclarar principalmente es ¿Por qué estás HU?
+##Una vez tenida la primera Daily scrum (a través de meet) se decidió coger las HU que aportaran mayor valor a nuestro proyecto que no fueran HU globales, ya que en el Sprint anterior se escogieron las principales para poder empezar con el proyecto coherentemente.
+##Por lo que revisando todas las HU mirando principalmente que tuvieran mayor valor para nuestro proyecto que teníamos en el ProductBacklog, nos decantamos por las HU que se han asignado ha dicho Sprint2.
+##Y para finalizar, se creo otra tarjeta para poder dar mejor aclaración de que subtareas pertenecían a las HU escogidas, para ello se decidió que a cada HU se le pondría delante de su nombre, un id, el cuál sería utilizado en cada subtarea perteneciente a dicho id de HU.
+
+
+
+##Captura de pantalla de dichas HU descompuestas en tareas al principio del Sprint.
 
 ![Captura Trello](/Trello/Sprint2ysubtareas.PNG)
 
+
+## Capturas de pantalla del Product Backlog y del Sprint Backlog tras las modificaciones  realizadas en el Product Backlog Refinement.
+
+![Captura Trello] (/Trello/ProductBacklogSprint2.PNG)
+
+
+## Conclusiones obtenidas en la Sprint Review.
+##Una vez tenía la primera reunión a través de meet, y dejar claras las HU que se iban a utilizar para dicho Sprint2 y no obstante dejar abierta la posibilidad de poder añadir más HU o quitar dichas de HU, se tuvo una segunda reunión sobre el Sprint Review.
+##Como Product Owner pude observar que se realizaron todas las HU que hubo propuestas por los desarrolladores e incluso se añadió una HU que complementaría a la HU con el id: Sprint 2.1(basada en resolver el puzle), dicha HU fue la opción de que el jugador pudiera solicitar ayuda al juego para poder terminar la aventura.
+##Dicha HU fue avisada por el desarrollado con antelación al Product Owner para que diera su opinión, por lo que se llegó a la conclusión de que sí se incorporaba y quedó finalizada un día antes de la reunión para poder revisar todo correctamente en el Sprint Review.
+##Además, fue revisado Product backlog con dichas estimaciones de PH y valor y lo único que cambió de dicho Product backlog fue la incorporación de dicha HU nombrada anteriormente al Sprint2.
+##Dicha HU quedo finalizada un día antes de la reunión
+##Por parte del equipo de desarrollados todo ha ido bien.
+##El Incremento se puede observar en la siguiente captura:
+
+![Captura Trello] (/Trello/ProductBacklogReview.PNG)
+
+##Seguidamente se pensó por donde continuar con el proyecto antes de empezar en el siguiente Sprint, por lo que se llegó al acuerdo de terminas las HU globales y la HU basada en tener un ranking de jugadores con su correspondiente puntuación de cada jugador.
+##Con todo esto el product backlog quedaría totalmente revisado.
+
+
+
+##Conclusiones obtenidas en la Sprint Retrospective.
+
+##Una vez realizado el Sprint review y quedar completamente revisado Product Backlog, se dejaron unos días para repasar los días de trabajo y pensar que se podría mejorar de cara al siguiente Sprint3 y que ha ido bien y mal, aunque se tema ya se tuvo en cuenta en la Sprint Review, pero se debería de hablar también en este Sprint por si algo se olvidó comentar.
+##Respecto al Scrum Team:
+##Podemos encontrar Development Team, y Product Owner.
+##•	Development Team: compuesto por 3 Development, en este caso fueron
+##Miguel Ángel Valero Domenech, Jose Carlos Mena y Jesús Rojas Martínez.
+##Aparte de ser Development decidieron tener otros cargos, en este caso, Miguel Ángel se dedico a revisar las imágenes insertadas en el proyecto. Jose Carlos Mena se encargó en poner dificultad al juego y revisar el funcionamiento correctamente de dicha dificultad y por último Jesús Rojas Martínez llevó acabo la creación del sitio web y sus actualizaciones correspondientes.
+##•	Product Owner: en este Sprint2 se ha encargado Mª Teresa González Perona y se ha decidido no programar y dedicarse solamente a realizar esta función debido a poder organizar totalmente mejor el proyecto en conjunto.
+##Debido a la dificultad que nos encontramos ahora mismo para poder hacer las reuniones, se ha decidido hacerlas a través de meet y comunicarnos ante cualquier duda y otro tipo de cuestión que surgiera antes de realizarse un Sprint ha sido a través de la app Whatsapp.
+##Y finalmente, por un lado, en general todo ha ido bien, ha habido buen entendimiento el Development y Product Owner y todas las HU y respectivas tareas se han realizado correctamente respecto a la dicha fecha de vencimiento. Y, por otro lado,  a la conclusión que se ha llegado para mejorar de cara al Sprint3 es escoger las HU que más valor tengan para nuestro proyecto y seguir el funcionamiento de escoger solamente las HU que de tiempo a realizar en el próximo Sprint
+
+
+## Captura de pantalla de las tareas del Sprint Planning al final del sprint (para ver cuántas se han acabado, cuántas se han quedado en fase de desarrollo o prueba, cuántas NO se han terminado, qué miembros se han asignado las tareas…)
+
+
+![Captura Trello] (/Trello/SprintPlanningfinal.PNG)
+
+
+##captura de pantalla de las HU del Sprint Backlog  una vez acabado el sprint.
+
+
+![Captura Trello] (/Trello/SprintFinal.PNG)
 
 
 ## url sitio web Público
