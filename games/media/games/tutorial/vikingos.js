@@ -32,11 +32,11 @@ undum.game.situations = {
         "<h1>La tribu de Kattegat</h1><p>Acabas de llegar a <a href='https://vikings.fandom.com/es/wiki/Kattegat' class='raw' target='_new'>Kattegat.</a>\
         Tras un saqueo el cual ha sido muy exitoso, por fin estás de vuelta en casa.\
         Y traes contigo un tesoro de cien monedas de oro, una corona de plata y una espada.\
-        <img width='480' src='./media/img/tesoro-vikingo.jpg'></p>\
+        <img class='centromovil' width='480' src='./media/img/tesoro-vikingo.jpg'></p>\
         <p>Al entrar en la tribu, recuerdas que Kattegat está gobernado por el\
         <a href='https://vikings.fandom.com/es/wiki/Conde_Haraldson' class='raw' target='_new'>Conde Haraldson,</a>\
         con el cual tuviste tus rencillas en el pasado, y no os tenéis mucho aprecio.\
-        <img width='480' src='./media/img/kattegat1.png'></p>\
+        <img class='centromovil' width='480' src='./media/img/kattegat1.png'></p>\
         Estás deseoso de conseguir quitarle el trono a Haraldson, aunque no va a ser nada fácil.<\p>\
         <p>Al entrar a la tribu puedes ir a <a class='verfamilia' href='verfamilia' onclick='help'>visitar a tu familia</a>, la cual llevas varias \
         semanas sin ver, o <a class='verconde1' href='verconde1' onclick='help'>ir a ver al Conde Haraldson</a>, el cual ya ha sido advertido de tu \
@@ -46,7 +46,7 @@ undum.game.situations = {
         "<h1>El salón del conde Haraldson</h1>\
         <p>Al entrar al salón, Haraldson se encuentra sentado en el trono de Conde.\
         El Conde te mira con desprecio, como ya era habitual, y te echa la bronca por la tardanza, desfiante.\
-        <img width='480' src='./media/img/conde1.jpg'></p>\
+        <img class='altasmovil' width='480' src='./media/img/conde1.jpg'></p>\
         <p>Aún así, decides <a class='pedirdisculpas' href='pedirdisculpas'>no entrar en su juego y pedirle disculpas\
         por ello</a> ya que no es un buen momento ni lugar para provocar una trifulca.\
         </p>",
@@ -62,7 +62,7 @@ undum.game.situations = {
         Te observa fijamente, la tensión es insoportable, y malhumorado, te acaba diciendo:<br>  &nbsp&nbsp&nbsp<i>-Vuelves de un saqueo, y en vez de cumplir con tu obligación, la cual\
         es venir a pagar el correspondiente tributo al condado, te vas a tu casa. Los barcos que te presté para el viaje no fueron precisamente porque me caigas bien, \
         ¿o es que pensabas esconder lo que has saqueado?</i></p>\
-        <p><img width='450' src='./media/img/conde1.jpg'>Tras esa desafiante pregunta decides <a class='pedirdisculpas' href='pedirdisculpas'>no entrar en su juego y pedirle disculpas\
+        <p><img class='centromovil' width='450' src='./media/img/conde1.jpg'>Tras esa desafiante pregunta decides <a class='pedirdisculpas' href='pedirdisculpas'>no entrar en su juego y pedirle disculpas\
         por tu actitud</a> o responderle que <a class='deberfamilia' href='deberfamilia'>tu deber es visitar a tu familia primero y no a un viejo conde tarado</a>.\
         </p>",
         {
@@ -74,7 +74,7 @@ undum.game.situations = {
     pedirdisculpas: new undum.SimpleSituation(
         "<h1>El agradecimiento del conde</h1>\
         <p>El Conde te agradece las disculpas pero como es costumbre, te exige el pago de una parte del tesoro como impuestos del condado.<br>\
-        <img align='middle' width='450' src='./media/img/50monedas_corona.png'> <br> Como te has disculpado\
+        <img class='centromovil' align='middle' width='450' src='./media/img/50monedas_corona.png'> <br> Como te has disculpado\
          solo te pide un tercio del tesoro. Y tú decides entregarle <a class='darmonedas' href='./darmonedas'>cuarenta monedas de oro</a>, darle<a class='darcorona' href='./darcorona'> la corona de plata</a> o prefieres antes \
         <a class='mirard' href='./mirard'>mirar detalladamente</a> en tu bolsa para ver si tienes algo más de valor.</p>",
         {
@@ -101,7 +101,7 @@ undum.game.situations = {
         "<p>Buscando en la bolsa encuentras una antiguo colgante con una cruz plateada, en ese momento recuerdas que la llevabas porque perteneció a \
         un monje cristiano que tuviste como rehén, pero el cuál acabo haciéndose amigo tuyo durante un viaje, tanto que acabaste convirtiéndote al \
         cristianismo aunque esto no lo sabe nadie. \
-        <img width=450 align='center' src='./media/img/cruz.jpg'><br/>\
+        <img class='centromovil' width=450 align='center' src='./media/img/cruz.jpg'><br/>\
         Por tanto, tienes que decidir si entregarle <a class='darcruz' href='./darcruz'>la cruz del monje</a>, la cual tiene mucho valor sentimental,  \
         entregarle <a class='darmonedas' href='./darmonedas'>cuarenta monedas de oro</a>, o darle<a class='darcorona' href='./darcorona'> la corona de plata</a> \
         </p>",
@@ -127,7 +127,7 @@ undum.game.situations = {
     ),
     deberfamilia: new undum.SimpleSituation(
         "<h1>El desafio al Conde</h1><p>El Conde se enfada ante tu actitud egoísta y te exige la corona y la mitad de las monedas como pago de impuestos para el condado.</p>\
-        <p><img align='middle' width='450' src='./media/img/conde2.jpg'>\
+        <p><img class='centromovil' align='middle' width='450' src='./media/img/conde2.jpg'>\
         Te encuentras rodeado de soldados de Haraldson, esto hace que <a class='pagarleloquedebes' href='./pagarleloquedebes'>te contengas y aceptes pagarle lo que exige e ir a visitar\
         por fin a tu mujer e hijos,</a>\
         o decidas <a class='intentarasesinarle' href='./intentarasesinarle'>coger la espada que habías saqueado e intentar asesinar al Conde Haraldson.</a></p>",
@@ -153,7 +153,7 @@ undum.game.situations = {
         "<h1>LA CASA DE TU FAMILIA</h1>\
         <p>Te estás dirigiendo a tu casa, y ves en la entrada dos hombres del Conde Haraldson custodiando la puerta.\
         Cuando te acercas, uno de ellos te advierte que no puedes entrar, pues el Conde exige verte inmediatamente.\
-        <img width='465' src='./media/img/ragnar3.jpg'><br>\
+        <img class='centromovil' width='465' src='./media/img/ragnar3.jpg'><br>\
         Tú, Ragnar Lothbrok, un vikingo legendario, del cual las leyendas dicen que desciendes del mismísimo Odín, te contienes\
         y decides calmarte e <a class='verconde2' href='verconde2'>ir a visitar al Conde,</a>\
         pues no quieres crear problemas, al menos, no tan pronto.\
@@ -187,7 +187,7 @@ undum.game.situations = {
     encarcelado: new undum.SimpleSituation (
         "<h1>EL ARRESTO DE RAGNAR</h1>\
         <p>Ante tal estúpida idea, los soldados alzan sus armas y te bloquean el paso, eres detenido, te quitan todo el tesoro y te llevan preso.\
-        <img src='./media/img/final_malo.jpg'></p>\
+        <img class='centromovil' src='./media/img/final_malo.jpg'></p>\
         <p>¿A quién se le ocurriría hacer tal cosa? Esto no es ciencia ficción.</p>\
         <p><a class='actualizatexto' onclick='cambiaProta()' href='./actualizatexto'>Aún así, esto no acaba aquí...</a></p>",
         {
@@ -206,7 +206,7 @@ undum.game.situations = {
         "<h1>LAGERTHA</h1>\
         <p>Un espía que se encontraba en el lugar en el que fue detenido Ragnar se acerca a tu casa. El espía se acerca y te comenta lo sucedido.\
         Tras enterarte, nerviosa y enfadada, pero decidida, piensas en cómo actuar. Pero antes de nada, poco vas a poder a hacer sin un arma. <br>\
-        <img align='middle' width='450' src='./media/img/armaslaga.jpg'> <br>\
+        <img class='centromovil' align='middle' width='450' src='./media/img/armaslaga.jpg'> <br>\
         <br/>Puedes coger <a class='cogerespada' href='./cogerespada'>la espada corta</a>  que te ofrece el espía o  <a class='cogerhacha' href='./cogerhacha'>mirar detalladamente</a> qué hay en el lugar.<p/>",
         {
             actions: {
@@ -317,11 +317,11 @@ undum.game.situations = {
     combatemuerte: new undum.SimpleSituation(
         "<h2>Combate a muerte</h2>\
         <p>Eres Lagertha, la legendaria guerrera mujer de Ragnar, y has decidido batirte en un sangriente combate contra las tropas del Conde Haraldson.</p>\
-        <img src='./media/img/combate-muerte.jpg' width='450' alt='Combate a muerte' /><p>Estás exhausta tras el largo y sangriente combate, pero gracias a tu valor y al de tus incansables guerreros y guerreras conseguís derrotar al Conde Haraldson y rescatar a tu esposo, el legendario vikingo Ragnar.</p>\
+        <img class='centromovil' src='./media/img/combate-muerte.jpg' width='450' alt='Combate a muerte' /><p>Estás exhausta tras el largo y sangriente combate, pero gracias a tu valor y al de tus incansables guerreros y guerreras conseguís derrotar al Conde Haraldson y rescatar a tu esposo, el legendario vikingo Ragnar.</p>\
         <p>Finalmente Ragnar en un acto de agradecimiento máximo te ofrece celebrar el rescate <a class='mamajuana' href='mamajuana'>bebiendo</a> como buenos vikingos o con una <a class='fiestabarco' href='fiestabarco'>exploración</a> por el mediterráneo</p>"
     ),
     mamajuana: new undum.SimpleSituation(
-        "<img src='./media/img/vikings-drinking.png' width='450' alt='Celebran la victoria bebiendo' /><p>Como buenos vikingos han decidido celebrar la victoria bebiendo y para ello deciden tomarse una copa de mamajuana del cráneo del Conde Haraldson y demostrar así quien manda en sus tierras.</p>\
+        "<img class='centromovil' src='./media/img/vikings-drinking.png' width='450' alt='Celebran la victoria bebiendo' /><p>Como buenos vikingos han decidido celebrar la victoria bebiendo y para ello deciden tomarse una copa de mamajuana del cráneo del Conde Haraldson y demostrar así quien manda en sus tierras.</p>\
         <h2>FIN</h2>"
     ),
     fiestabarco: new undum.SimpleSituation(
