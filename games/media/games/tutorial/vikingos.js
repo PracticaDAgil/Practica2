@@ -53,6 +53,8 @@ undum.game.situations = {
         {
             enter: function(character, system, from) {
                 system.setCharacterText("<p>Este es tu inventario</p>");
+				
+				
             }
         }
     ),
@@ -68,6 +70,8 @@ undum.game.situations = {
         {
             enter: function(character, system, from) {
                 system.setCharacterText("<p>Este es tu inventario</p>");
+				
+				
             }
         }
     ),
@@ -196,7 +200,7 @@ undum.game.situations = {
                     system.setQuality("espada", false);
                     system.setQuality("monedas", 0);
                     system.setCharacterText("<p>¡Ahora eres Lagertha! Lagertha es la mujer de Ragnar, y es una de las vikingas más famosas del mundo nórdico.\
-                        Es conocida por ser una grandiosa guerrera escudera, y por haber participado y vencido en innumerables batallas.</p>");
+                        Es conocida por ser una grandiosa guerrera escudera, y por haber participado y vencido en innumerables batallas.</p>");	
                     system.doLink('cambioprotagonista');
                 }
             }
@@ -283,6 +287,7 @@ undum.game.situations = {
                 } else {
                     system.doLink("tropassinhacha");
                 }
+
             }
         }
     ),
@@ -323,6 +328,7 @@ undum.game.situations = {
     mamajuana: new undum.SimpleSituation(
         "<img class='centromovil' src='./media/img/vikings-drinking.png' width='450' alt='Celebran la victoria bebiendo' /><p>Como buenos vikingos han decidido celebrar la victoria bebiendo y para ello deciden tomarse una copa de mamajuana del cráneo del Conde Haraldson y demostrar así quien manda en sus tierras.</p>\
         <h2>FIN</h2>"
+		 
     ),
     fiestabarco: new undum.SimpleSituation(
         "<p><img class='float_left' src='./media/img/fondo2.jpg' width='250' alt='Fiesta barco' />Tal y como Ragnar le prometió a Lagertha se la lleva de exploración pero no una exploración cualquiera sino la mayor exploración jamás vista, donde se apuntan todos los guerreros vikingos que lucharon junto a Lagertha y los jóvenes de la ciudad, lo que se convierte en un auténtico crucero por el Mediterraneo con fiestas y alcohol sin fin.</p>\
@@ -339,6 +345,7 @@ undum.game.situations = {
         <img class='float_left' src='./media/img/victoria-final.jpeg' width='250' alt='Victoria final' /><p>Tras el estrechamiento tú y tus guerreros os disponeis a marcharos cuando el Conde empieza a marearse y acaba de bruces contra el suelo... ¡Está muerto! Exclama su mujer mientras tu y tus guerreros aprovechais para acabar con su ejército y liberar a Ragnar.</p>\
         <p>El Conde ha sido envenenado con tetrodotoxina, un veneno egipcio que Ragnar encontró en su viaje por los paises del Mediterraneo. Ahora ese veneno lo ha salvado y vuelve a ser libre.</p>\
         <h2>FIN</h2>"
+		
     )
 };
 
@@ -372,6 +379,9 @@ undum.game.qualities = {
     cruzplata: new undum.OnOffQuality(
         "Cruz de plata", {priority:"0001", group:'stats'}
     )
+	puntuacion: new undum.OnOffQuality(
+		"Puntuación" , {priority:"0001", group: 'stats'}
+	)
 };
 
 // ---------------------------------------------------------------------------
@@ -396,5 +406,6 @@ undum.game.init = function(character, system) {
     character.qualities.hacha = 0;
     character.qualities.espadacorta = 0;
     character.qualities.cruzplata = 0;
+	character.qualities.puntuacion=0;
     system.setCharacterText("<p>Comienzas con un tesoro en tu poder. En el que tienes una bolsita de 100 monedas de oro, una corona y una espada.</p>");
 };
