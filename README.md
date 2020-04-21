@@ -153,3 +153,7 @@ https://vikingsundum.000webhostapp.com/
 
 
 ![Captura Trello](/Trello/SprintPlanningfinalSprint3.png)
+
+## url del tablero Trello 
+
+https://trello.com/b/lOZgwuLS/práctica2agil
