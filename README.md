@@ -118,7 +118,7 @@ https://vikingsundum.000webhostapp.com/
 
 ## Conclusiones obtenidas en la Sprint Review.
 
-### El Sprint Review también se ha realizado mediante Meet Google. En esta reunión, como Product Owner, he podido comprobar que las historias de usuario que se eligieron al comienzo del sprint, que son las tres que se han comentado anteriormente. Por tanto, se han realizado todas las historias de usuario elegidas, no ha quedado ninguna sin completar. 
+### El Sprint Review también se ha realizado mediante Meet Google. En esta reunión, como Product Owner, he podido comprobar que las historias de usuario que se eligieron al comienzo del sprint, que son las tres que se han comentado anteriormente, se han hecho. Por tanto, se han realizado todas las historias de usuario elegidas, no ha quedado ninguna sin completar. 
 
 ### Respecto a los plazos, se han cumplido todos. Cada miembro del equipo de desarrollo cumplió con la fecha que fijamos para la realización de la tarea que tenía asignado cada uno.
 
@@ -126,7 +126,7 @@ https://vikingsundum.000webhostapp.com/
 
 ### El incremento del sprint, en el cual se puede ver que se ha cumplido con todas las tareas que se asignaron a los desarrolladores y sus fechas de entrega, se puede comprobar en la siguiente imagen: 
 
-![Captura Trello](/Trello/ProductBacklogReviewSprint3.png)
+![Captura Trello](/Trello/ProductBacklogReviewSprint3.PNG)
 
 ### Como este es era el último Sprint del proyecto, no tuvimos que ver por dónde ibamos a seguir ni qué es lo siguiente que aporta más valor. Solamente planteamos la idea de comprobar, cada cierto tiempo, que la web donde está subido el juego siga activa a modo de mantenimiento.
 
@@ -141,7 +141,7 @@ https://vikingsundum.000webhostapp.com/
 ### Tenemos al Development Team y el Product owner.
 ### •	Development Team: compuesto por 3 Development, en este caso fueron
 ### María Teresa González Perona, Jose Carlos Mena y Jesús Rojas Martínez.
-### Cada uno de ellos han tenido asignada una tarea este sprint, además, Jesús se dedicaró también a revisar algunas imágenes del proyecto. Jose Carlos y María Teresa se encargaron de revisar la dificultad del juego y revisar el funcionamiento correcto del mismo.
+### Cada uno de ellos han tenido asignada una tarea este sprint, además, Jesús se dedicó también a revisar algunas imágenes del proyecto. Jose Carlos y María Teresa se encargaron de revisar la dificultad del juego y revisar el funcionamiento correcto del mismo.
 ### •	Product Owner: en este último sprint se ha encargado Miguel Ángel Valero Domenech y el grupo ha decidido que no programe para poder dedicarse a realizar esta función y organizar mejor el proyecto en conjunto.
 
 ### Respecto a las relaciones y herramientas, creemos que hemos sabido comunicarnos y coordinarnos mucho mejor debido al tiempo de trabajo juntos que llevamos. Las herramientas que hemos usado han seguido siendo las mismas, Whattsapp, Meet Google, Trello y Slack. Respecto a los procesos, como consecuencia de esto, creemos que hemos sabido optimizarlos mucho mejor, subdividiendo los mismos en tareas más simples y haciendo así que se nos facilitase el trabajo.
