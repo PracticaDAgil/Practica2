@@ -114,7 +114,7 @@ https://vikingsundum.000webhostapp.com/
 ## Capturas de pantalla del Product Backlog y del Sprint Backlog tras las modificaciones  realizadas en el Product Backlog Refinement.
 
 ![Captura Trello](/Trello/ProductBacklogSprint3.png)
-
+![Captura Trello](/Trello/Sprint3ysubtareas.png)
 
 ## Conclusiones obtenidas en la Sprint Review.
 
@@ -126,7 +126,7 @@ https://vikingsundum.000webhostapp.com/
 
 ### El incremento del sprint, en el cual se puede ver que se ha cumplido con todas las tareas que se asignaron a los desarrolladores y sus fechas de entrega, se puede comprobar en la siguiente imagen: 
 
-![Captura Trello](/Trello/ProductBacklogReviewSprint3.PNG)
+![Captura Trello](/Trello/ProductBacklogReviewSprint3.png)
 
 ### Como este es era el último Sprint del proyecto, no tuvimos que ver por dónde ibamos a seguir ni qué es lo siguiente que aporta más valor. Solamente planteamos la idea de comprobar, cada cierto tiempo, que la web donde está subido el juego siga activa a modo de mantenimiento.
 
