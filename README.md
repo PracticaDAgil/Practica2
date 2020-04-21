@@ -92,7 +92,7 @@ https://vikingsundum.000webhostapp.com/
 
 
 
-## Práctica 4 Sprint 2. "PRODUCT OWNER Miguel Ángel Valero Domenech(No ha programado)"
+## Práctica 5 Sprint 3(Final). "PRODUCT OWNER Miguel Ángel Valero Domenech(No ha programado)"
 
 
 ## Captura de pantalla de las HU que habéis decidido que formen parte del Sprint Backlog y breve explicación de porqué se han elegido esas.
@@ -101,19 +101,19 @@ https://vikingsundum.000webhostapp.com/
 
 ### Como podemos ver en la captura de pantalla del Sprint Backlog, hemo decidido hacer tres historias de usuario más en este tercer y último sprint. En el Sprint planning, reunión que realizamos online mediante Meet Google, decidimos elegir estas historias de usuario principalmente porque eran las que más valor aportaban al proyecto y también, las que vimos que nos daría tiempo a implementar correctamente antes de finalizar el Sprint. 
 
-### Se puede ver, que una de estas historias de usuario, es global(debido a la pegatina del reloj), esta era la última historia de usuario global que nuestro proyecto no cumplía correctamente, así que la escogimos para implmentarla en el proyecto. Las otras dos, fueron elegidas de entre las historias de usuario restantes que quedaban. Respecto a estas dos, la primera HU(3.1 Responsive Design) tiene un valor infinito, por lo que resultaba muy atractivo cogerla para implementarla ya que además su dificultad no era alta(S); la otra HU(3.2 Ayuda sensible al contexto) fue elegida porque era la que más valor aportaba al proyecto de las restantes, como se puede ver en el Sprint Backlog.
+### Se puede ver, que una de estas historias de usuario, es global(debido a la pegatina del reloj), esta era la última historia de usuario global que nuestro proyecto no cumplía correctamente, así que la escogimos para implementarla en el proyecto. Las otras dos, fueron elegidas de entre las historias de usuario restantes que quedaban. Respecto a estas dos, la primera HU(3.1 Responsive Design) tiene un valor infinito, por lo que resultaba muy atractiva cogerla para implementarla ya que además su dificultad no era alta(S); la otra HU(3.2 Ayuda sensible al contexto) fue elegida porque era la que más valor aportaba al proyecto de las restantes, como se puede ver en el Sprint Backlog.
 
 ### A parte del valor que aportaban las HU elegidas, también era necesario asegurarnos de que nos diese tiempo a terminarlas, ya que al ser el último sprint, si no nos daba tiempo tendrían que ser retiradas por completo. De tal forma que elegimos una tarea para cada desarrollador asegurandonos de que se iba a poder entregar en la fecha fijada.
 
 
 ## Captura de pantalla de dichas HU descompuestas en tareas al principio del Sprint.
 
-![Captura Trello](/Trello/Sprint3ysubtareas.PNG)
+![Captura Trello](/Trello/Sprint3ysubtareas.png)
 
 
 ## Capturas de pantalla del Product Backlog y del Sprint Backlog tras las modificaciones  realizadas en el Product Backlog Refinement.
 
-![Captura Trello](/Trello/ProductBacklogSprint3.PNG)
+![Captura Trello](/Trello/ProductBacklogSprint3.png)
 
 
 ## Conclusiones obtenidas en la Sprint Review.
@@ -126,7 +126,7 @@ https://vikingsundum.000webhostapp.com/
 
 ### El incremento del sprint, en el cual se puede ver que se ha cumplido con todas las tareas que se asignaron a los desarrolladores y sus fechas de entrega, se puede comprobar en la siguiente imagen: 
 
-![Captura Trello](/Trello/ProductBacklogReviewSprint3.PNG)
+![Captura Trello](/Trello/ProductBacklogReviewSprint3.png)
 
 ### Como este es era el último Sprint del proyecto, no tuvimos que ver por dónde ibamos a seguir ni qué es lo siguiente que aporta más valor. Solamente planteamos la idea de comprobar, cada cierto tiempo, que la web donde está subido el juego siga activa a modo de mantenimiento.
 
@@ -152,4 +152,4 @@ https://vikingsundum.000webhostapp.com/
 ## Captura de pantalla de las tareas del Sprint Planning al final del sprint (para ver cuántas se han acabado, cuántas se han quedado en fase de desarrollo o prueba, cuántas NO se han terminado, qué miembros se han asignado las tareas…)
 
 
-![Captura Trello](/Trello/SprintPlanningfinalSprint3.PNG)
+![Captura Trello](/Trello/SprintPlanningfinalSprint3.png)
