@@ -146,12 +146,12 @@ https://vikingsundum.000webhostapp.com/
 
 ![Captura Trello](/Trello/ProductBacklogReviewSprint3.png)
 
-### Como este es era el último Sprint del proyecto, no tuvimos que ver por dónde ibamos a seguir ni qué es lo siguiente que aporta más valor. Solamente planteamos la idea de comprobar, cada cierto tiempo, que la web donde está subido el juego siga activa a modo de mantenimiento. Tampoco ha habido modificaciones de PH ni valor.
+### Como este era el último Sprint del proyecto, no tuvimos que ver por dónde ibamos a seguir ni qué es lo siguiente que aporta más valor. Solamente planteamos la idea de comprobar, cada cierto tiempo, que la web donde está subido el juego siga activa a modo de mantenimiento. Tampoco ha habido modificaciones de PH ni valor.
 
 
 ##  Conclusiones obtenidas en la Sprint Retrospective.
 
-### En esta reunión, también realizada por Meet Google, pudimos comprobar, que habiamos mejorado a la hora de trabajar y coordinarnos juntos. Debido a que llevamos varias semanas de trabajo juntos, sabíamos cómo repartirnos las tareas de forma más correcta y la comunicación entre el equipo ha mejorado mucho también.
+### En esta reunión, también realizada por Meet Google, pudimos comprobar, que habíamos mejorado a la hora de trabajar y coordinarnos juntos. Debido a que llevamos varias semanas de trabajo juntos, sabíamos cómo repartirnos las tareas de forma más correcta y la comunicación entre el equipo ha mejorado mucho también.
 
 ### Tras realizar el Sprint review y revisar el Product Backlog, se dejó un día más para poder repasar el trabajo por si había algo que corregir o mejorar. 
 
@@ -159,7 +159,7 @@ https://vikingsundum.000webhostapp.com/
 ### Tenemos al Development Team y el Product owner.
 ### •	Development Team: compuesto por 3 Development, en este caso fueron
 ### María Teresa González Perona, Jose Carlos Mena y Jesús Rojas Martínez.
-### Cada uno de ellos han tenido asignada una tarea este sprint, además, Jesús se dedicó también a revisar algunas imágenes del proyecto. Jose Carlos y María Teresa se encargaron de revisar la dificultad del juego y revisar el funcionamiento correcto del mismo.
+### Cada uno de ellos han tenido asignada una tarea en este sprint, además, Jesús se dedicó también a revisar algunas imágenes del proyecto. Jose Carlos y María Teresa se encargaron de revisar la dificultad del juego y revisar el funcionamiento correcto del mismo.
 ### •	Product Owner: en este último sprint se ha encargado Miguel Ángel Valero Domenech y el grupo ha decidido que no programe para poder dedicarse a realizar esta función y organizar mejor el proyecto en conjunto.
 
 ### Respecto a las relaciones y herramientas, creemos que hemos sabido comunicarnos y coordinarnos mucho mejor debido al tiempo de trabajo juntos que llevamos. Las herramientas que hemos usado han seguido siendo las mismas, Whattsapp, Meet Google, Trello y Slack. Respecto a los procesos, como consecuencia de esto, creemos que hemos sabido optimizarlos mucho mejor, subdividiendo los mismos en tareas más simples y haciendo así que se nos facilitase el trabajo.
@@ -175,3 +175,7 @@ https://vikingsundum.000webhostapp.com/
 ## url del tablero Trello 
 
 https://trello.com/b/lOZgwuLS/práctica2agil
+
+## url sitio web Público
+
+https://vikingsundum.000webhostapp.com/
