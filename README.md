@@ -113,7 +113,7 @@ https://vikingsundum.000webhostapp.com/
 
 ## Capturas de pantalla del Product Backlog y del Sprint Backlog tras las modificaciones  realizadas en el Product Backlog Refinement.
 
-![Captura Trello](/Trello/ProductBacklogSprint3.png)
+![Captura Trello](/Trello/ProductBacklogSprint3.jpeg)
 ![Captura Trello](/Trello/Sprint3ysubtareas.png)
 
 ## Conclusiones obtenidas en la Sprint Review.
@@ -128,6 +128,13 @@ https://vikingsundum.000webhostapp.com/
 
 
 ![Captura Trello](/Trello/SprintPlanningfinalSprint3.png)
+
+### HU que NO hemos escogido para realizar y por tanto han quedado como NO realizadas:
+###     -Login + contraseña.
+###     -Recuperar partida desde cualquier dispositivo.
+###     -Ranking de jugadores.
+
+![Captura Trello](/Trello/NOescogidas.png)
 
 ### Respecto a los plazos, se han cumplido todos. Cada miembro del equipo de desarrollo cumplió con la fecha que fijamos para la realización de la tarea que tenía asignado cada uno.
 
