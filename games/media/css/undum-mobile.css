@@ -122,4 +122,14 @@ body {
     padding: 10px 20px;
 }
 
+img.centromovil {
+    vertical-align: center;
+    height: 150px;
+    width: 300px;
+}
 
+img.altasmovil {
+	vertical-align: center;
+    height: 350px;
+    width: 160px;
+}

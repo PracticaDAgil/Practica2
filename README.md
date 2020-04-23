@@ -92,3 +92,86 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 https://vikingsundum.000webhostapp.com/
 
+
+
+## Práctica 5 Sprint 3(Final). "PRODUCT OWNER Miguel Ángel Valero Domenech(No ha programado)"
+
+
+## Captura de pantalla de las HU que habéis decidido que formen parte del Sprint Backlog y breve explicación de porqué se han elegido esas.
+
+![Captura Trello](/Trello/Sprint3Backlog.png)
+
+### Como podemos ver en la captura de pantalla del Sprint Backlog, hemo decidido hacer tres historias de usuario más en este tercer y último sprint. En el Sprint planning, reunión que realizamos online mediante Meet Google, decidimos elegir estas historias de usuario principalmente porque eran las que más valor aportaban al proyecto y también, las que vimos que nos daría tiempo a implementar correctamente antes de finalizar el Sprint. 
+
+### Se puede ver, que una de estas historias de usuario, es global(debido a la pegatina del reloj), esta era la última historia de usuario global que nuestro proyecto no cumplía correctamente, así que la escogimos para implementarla en el proyecto. Las otras dos, fueron elegidas de entre las historias de usuario restantes que quedaban. Respecto a estas dos, la primera HU(3.1 Responsive Design) tiene un valor infinito, por lo que resultaba muy atractiva cogerla para implementarla ya que además su dificultad no era alta(S); la otra HU(3.2 Ayuda sensible al contexto) fue elegida porque era la que más valor aportaba al proyecto de las restantes.
+
+### A parte del valor que aportaban las HU elegidas, también era necesario asegurarnos de que nos diese tiempo a terminarlas, ya que al ser el último sprint, si no nos daba tiempo tendrían que ser retiradas por completo. De tal forma que elegimos una tarea para cada desarrollador asegurandonos de que se iba a poder entregar en la fecha fijada.
+
+
+## Captura de pantalla de dichas HU descompuestas en tareas al principio del Sprint.
+
+![Captura Trello](/Trello/Sprint3ysubtareas.png)
+
+
+## Capturas de pantalla del Product Backlog y del Sprint Backlog tras las modificaciones  realizadas en el Product Backlog Refinement.
+
+![Captura Trello](/Trello/ProductBacklogSprint3.jpeg)
+![Captura Trello](/Trello/Sprint3ysubtareas.png)
+
+## Conclusiones obtenidas en la Sprint Review.
+
+### El Sprint Review también se ha realizado mediante Meet Google. En esta reunión, como Product Owner, he podido comprobar que las historias de usuario que se eligieron al comienzo del sprint, que son las tres que se han comentado anteriormente, se han hecho. 
+### HU implementadas:
+###     -(3.1) Responsive design.
+###     -(3.2) Ayuda sensible al contexto.
+###     -(3.3) Sistema de puntuación cuantificable.
+
+## Captura de pantalla de las tareas del Sprint Planning al final del sprint (para ver cuántas se han acabado, cuántas se han quedado en fase de desarrollo o prueba, cuántas NO se han terminado, qué miembros se han asignado las tareas…)
+
+
+![Captura Trello](/Trello/SprintPlanningfinalSprint3.png)
+
+### HU que NO hemos escogido para realizar y por tanto han quedado como NO realizadas:
+###     -Login + contraseña.
+###     -Recuperar partida desde cualquier dispositivo.
+###     -Ranking de jugadores.
+
+![Captura Trello](/Trello/NOescogidas.png)
+
+### Respecto a los plazos, se han cumplido todos. Cada miembro del equipo de desarrollo cumplió con la fecha que fijamos para la realización de la tarea que tenía asignado cada uno.
+
+### Respecto del equipo de desarrollo, en este último sprint, no ha habido ningún problema, pienso que esto se puede deber a que tenemos más experiencia en esta metodología y teniamos claro cómo realizar las tareas.
+
+### El incremento del sprint, en el cual se puede ver que se ha cumplido con todas las tareas que se asignaron a los desarrolladores y sus fechas de entrega, se puede comprobar en la siguiente imagen: 
+
+![Captura Trello](/Trello/ProductBacklogReviewSprint3.png)
+
+### Como este es era el último Sprint del proyecto, no tuvimos que ver por dónde ibamos a seguir ni qué es lo siguiente que aporta más valor. Solamente planteamos la idea de comprobar, cada cierto tiempo, que la web donde está subido el juego siga activa a modo de mantenimiento. Tampoco ha habido modificaciones de PH ni valor.
+
+
+##  Conclusiones obtenidas en la Sprint Retrospective.
+
+### En esta reunión, también realizada por Meet Google, pudimos comprobar, que habiamos mejorado a la hora de trabajar y coordinarnos juntos. Debido a que llevamos varias semanas de trabajo juntos, sabíamos cómo repartirnos las tareas de forma más correcta y la comunicación entre el equipo ha mejorado mucho también.
+
+### Tras realizar el Sprint review y revisar el Product Backlog, se dejó un día más para poder repasar el trabajo por si había algo que corregir o mejorar. 
+
+### Respecto al Scrum Team(personas): 
+### Tenemos al Development Team y el Product owner.
+### •	Development Team: compuesto por 3 Development, en este caso fueron
+### María Teresa González Perona, Jose Carlos Mena y Jesús Rojas Martínez.
+### Cada uno de ellos han tenido asignada una tarea este sprint, además, Jesús se dedicó también a revisar algunas imágenes del proyecto. Jose Carlos y María Teresa se encargaron de revisar la dificultad del juego y revisar el funcionamiento correcto del mismo.
+### •	Product Owner: en este último sprint se ha encargado Miguel Ángel Valero Domenech y el grupo ha decidido que no programe para poder dedicarse a realizar esta función y organizar mejor el proyecto en conjunto.
+
+### Respecto a las relaciones y herramientas, creemos que hemos sabido comunicarnos y coordinarnos mucho mejor debido al tiempo de trabajo juntos que llevamos. Las herramientas que hemos usado han seguido siendo las mismas, Whattsapp, Meet Google, Trello y Slack. Respecto a los procesos, como consecuencia de esto, creemos que hemos sabido optimizarlos mucho mejor, subdividiendo los mismos en tareas más simples y haciendo así que se nos facilitase el trabajo.
+
+### En conclusión, pensamos que somos un grupo de trabajo que ha ido mejorando con el tiempo su forma de trabajar en grupo, así como la coordinación y la comunicación entre nosotros. También, hemos sabido adapatarnos a las circustancias con las que nos hemos encontrado, lo cual es una cualidad muy buena a destacar ya que usamos una metodología ágil, y de eso se trata. 
+
+## Captura de pantalla de las HU del Sprint Backlog  una vez acabado el sprint.
+
+![Captura Trello](/Trello/ProductBacklogReviewSprint3.png)
+
+
+
+## url del tablero Trello 
+
+https://trello.com/b/lOZgwuLS/práctica2agil
