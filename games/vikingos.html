@@ -2,22 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="icon" type="image/jpg" href="media/img/textura1.jpg" sizes="64x64">
     <!-- Game Title: edit this -->
-    <title>Undum</title>
+    <title>Back to Kattegat</title>
     <!-- End of Game Title -->
 
     <!-- Remove this if you don't use the Tangerine font in your
          stylesheet -->
     <link href='http://fonts.googleapis.com/css?family=Tangerine'
           rel='stylesheet' type='text/css'>
+          
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <!-- This is your game's stylesheet, modify it if you like. -->
     <link media="screen"
           rel="stylesheet" href="media/css/undum.css">
+    <!-- This is your game's stylesheet, modify it if you like. -->
+    <link rel="stylesheet" href="media/css/style.css">
 
     <!-- Suppport for mobile devices. -->
     <meta name="viewport" content="user-scalable=no, width=device-width">
     <link rel="apple-touch-icon" href="media/img/iphone/icon.png">
+	<link rel="apple-touch-startup-image" href="media/tesoro-vikingo.jpg">
     <link rel="apple-touch-startup-image" href="media/kattegat1.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -34,7 +40,7 @@
     <div id="toolbar">
       <!-- Set this to be a small version of the title, for the
            toolbar on mobile devices. -->
-      <h1>Undum</h1>
+      <h1>Vikingos</h1>
       <div class="nav">
         <a href="#" class="button" id="menu-button">Menu</a>
       </div>
@@ -59,17 +65,18 @@
 
           <div class='buttons'>
             <button id="save">Guardar</button><button id="erase">Borrar</button>
+            <button id="help">Ayuda</button>
           </div>
           <h1>Música</h1>
           <div>
             <p>Activa/desactiva la musica con el siguiente control: </p>
-            <audio src="./media/music/Wardruna.mp3" controls loop style="width: 160px;"></audio>  
+            <audio src="./media/music/musica.mp3" controls loop style="width: 160px;"></audio>  
           </div>
         </div>
 
         <div id="character_panel" class="tools right">
-          <h1><em>Ragnar Lothbrok</em></h1>
-          <img height= 200 width= 160 src='./media/img/ragnar1.jpg'>
+          <h1><em id="name-prota">Ragnar Lothbrok</em></h1>
+          <img id="img-prota" class="img-fluid"  src="./media/img/ragnar1.jpg" alt="Imagen protagonista de la historia" />
           <div id="character">
             <div id="character_text">
               <div id="character_text_content"></div>
@@ -239,13 +246,25 @@
           this example:</p>
       </div>
     </div>
+    
+    <!-- POP UP -->
+    <div id="popup" style="display: none;">
+        <div class="content-popup">
+            <div class="close"><a href="#" id="close"><img width="15" height="15" alt="cerrar popup" src="media/img/close.png"/></a></div>
+            <div id="text-popup"></div>
+        </div>
+    </div>
+    <div class="popup-overlay"></div>
 
     <!-- Load the libraries we depend on -->
     <script type="text/javascript" src="media/js/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="media/js/undum.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!-- Change the name of this file. It is your main game file. -->
     <script type="text/javascript"
             src="media/games/tutorial/vikingos.js"></script>
+    <script type="text/javascript" src="media/js/help.js"></script>
   </body>
 </html>
