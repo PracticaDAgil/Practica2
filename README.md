@@ -173,3 +173,12 @@ https://vikingsundum.000webhostapp.com/
 ## url del tablero Trello 
 
 https://trello.com/b/lOZgwuLS/práctica2agil
+
+
+
+
+## Práctica 6 Métricas.
+
+## url de la hoja de cálculo de drive
+
+https://docs.google.com/spreadsheets/d/10nRmInB5dPWgR4C3bHpVDDWcQyIIiqdBdNgjaq-GHAE/edit?usp=sharing
