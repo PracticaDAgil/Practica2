@@ -181,15 +181,15 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 ## Tabla para los datos de las gráficas del proyecto en su totalidad
 
-| Fecha | PH por hacer | PH hechos | Valor por hacer | Valor hecho
---- | --- | --- | --- | --- | --- | ---
-Sprint 1 | 9 Marzo (inicio Sprint) | 247 | 6 | 424 | 500
- | 16 Marzo (PBR) | 247 | 6 | 424 | 500
-Sprint 2 | 23 Marzo (inicio Sprint) | 251 | 10 | 229 | 700
- | 30 Marzo (PBR) | 251 | 10 | 229 | 700
-Sprint 3 | 13 Abril (inicio Sprint) | 225 | 38 | 207 | 722
- | 20 Abril (PBR) | 225 | 38 | 207 | 722
-Fin proyecto | 27 Abril | 210 | 53 | 3 | 926
+| Fecha | PH por hacer | PH hechos | Valor por hacer | Valor hecho |
+| --- | --- | --- | --- | --- | --- | --- |
+| Sprint 1 | 9 Marzo (inicio Sprint) | 247 | 6 | 424 | 500 |
+|  | 16 Marzo (PBR) | 247 | 6 | 424 | 500 |
+| Sprint 2 | 23 Marzo (inicio Sprint) | 251 | 10 | 229 | 700 |
+|  | 30 Marzo (PBR) | 251 | 10 | 229 | 700 |
+| Sprint 3 | 13 Abril (inicio Sprint) | 225 | 38 | 207 | 722 |
+|  | 20 Abril (PBR) | 225 | 38 | 207 | 722 |
+| Fin proyecto | 27 Abril | 210 | 53 | 3 | 926 |
 
 ### Equivalencias: XS = 1, S = 2, M = 3, L = 5, XL = 8, XXL = 10, ∞ = 100
 
