@@ -181,6 +181,8 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 ## Tabla para los datos de las gráficas del proyecto en su totalidad
 
+### NOTA: LOS DATOS RELACIONADOS CON CADA UNO DE LOS SPRINTS SE HAN OBTENIDO DE LOS COMMITS REALIZADOS
+
 | Sprints | Fecha | PH por hacer | PH hechos | Valor por hacer | Valor hecho |
 | --- | --- | --- | --- | --- | --- |
 | Sprint 1 | 9 Marzo (inicio Sprint) | 247 | 6 | 424 | 500 |
