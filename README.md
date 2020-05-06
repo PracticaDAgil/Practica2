@@ -210,7 +210,7 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 | Sprint | Velocidad (=PH hechos en el sprint) | Velocidad media | Desviación estándar |
 | --- | --- | --- | --- |
-| Srpint 1 | 4 | \multirow{3}{*}{15.667} | 12.013 |
+| Srpint 1 | 4 | multirow{3}{*}{15.667} | 12.013 |
 | Sprint 2 | 28 |  |  |
 | Sprint 3 | 15 |  |  |
 
