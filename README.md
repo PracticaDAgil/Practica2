@@ -306,9 +306,19 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 ![Captura Grafica](/Graficas/burn-up-sprint3.jpg)
 
+## Conclusiones
 
+### Conclusiones relativas al proyecto en su totalidad
 
+#### Podemos observar como desde el inicio del proyecto hemos decidido dar mayor prioridad a las tareas con más valor. Terminando con un valor hecho de 926 y un valor por hacer únicamente de 3.
+#### También queda claro que según ha ido avanzando el proyecto nos hemos conocido mejor los integrantes del grupo y por tanto hemos trabajado de forma más eficiente y con mejores resultados.
+#### En un principio optamos por seleccionar pocas tareas para evitar seleccionar más de las que pudieramos realizar, cosa que en los siguientes sprints no ha sido así, ya que viendo que somos un grupo trabajador y bien coordinado, hemos ido seleccionando todas las tareas que veíamos necesarias para la mejora de nuestro proyecto.
 
+### Conclusiones relativas al desarrollo de los sprints
+
+#### En cada uno de los sprints hemos tenido un Product OWNER diferente, que no ha tenido que programar durante dicho sprint.
+#### Ha quedado claro como hemos ido mejorando con la entrega de cada uno de los sprints, mejorando nuestra organización y adaptación a los cambios sufridos desde el inicio.
+#### Se puede comprobar muy fácilmente, haciendo uso de los gráficos, la evolución del proyecto. En un principio optamos por tareas fáciles que nos ayudaran a comprobar la velocidad de desarrollo del equipo. Una vez comprobada nuestra capacidad de desarrollo decidimos optar por darle calidad al proyecto y comenzar a desarrollar las tareas con mayor valor (durante el sprint 2 puede verse este aumento). Por último, en el sprint 3 se realizaron las tareas que quedaban pendientes optando siempre por las que más valor aportaban a nuestro proyecto.
 
 ## url de la hoja de cálculo de drive
 
