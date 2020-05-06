@@ -193,7 +193,11 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 ### Equivalencias: XS = 1, S = 2, M = 3, L = 5, XL = 8, XXL = 10, ∞ = 100
 
+## Gráficas burndown y burn-up de los puntos de historia
 
+![Captura Grafica](/Graficas/burndown-ph-por-hacer.jpg)
+
+![Captura Grafica](/Graficas/burn-up-ph-hechos.jpg)
 
 
 
