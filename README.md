@@ -179,3 +179,163 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 ## url sitio web Público
 
 https://vikingsundum.000webhostapp.com/
+
+
+
+## Práctica 6 Métricas.
+
+
+## Tabla para los datos de las gráficas del proyecto en su totalidad
+
+### NOTA: LOS DATOS RELACIONADOS CON CADA UNO DE LOS SPRINTS SE HAN OBTENIDO DE LOS COMMITS REALIZADOS
+
+| Sprints | Fecha | PH por hacer | PH hechos | Valor por hacer | Valor hecho |
+| --- | --- | --- | --- | --- | --- |
+| Sprint 1 | 9 Marzo (inicio Sprint) | 247 | 6 | 424 | 500 |
+| Sprint 1 | 16 Marzo (PBR) | 247 | 6 | 424 | 500 |
+| Sprint 2 | 23 Marzo (inicio Sprint) | 251 | 10 | 229 | 700 |
+| Sprint 2 | 30 Marzo (PBR) | 251 | 10 | 229 | 700 |
+| Sprint 3 | 13 Abril (inicio Sprint) | 225 | 38 | 207 | 722 |
+| Sprint 3 | 20 Abril (PBR) | 225 | 38 | 207 | 722 |
+| Fin proyecto | 27 Abril | 210 | 53 | 3 | 926 |
+
+### Equivalencias: XS = 1, S = 2, M = 3, L = 5, XL = 8, XXL = 10, ∞ = 100
+
+## Gráficas burndown y burn-up de los puntos de historia
+
+![Captura Grafica](/Graficas/burndown-ph-por-hacer.jpg)
+
+![Captura Grafica](/Graficas/burn-up-ph-hechos.jpg)
+
+## Gráficas burndown y burn-up del Valor asociado a las Historias de Usuario
+
+![Captura Grafica](/Graficas/burndown-valor-por-hacer.jpg)
+
+![Captura Grafica](/Graficas/burn-up-valor-hecho.jpg)
+
+## Tabla de velocidades
+
+| Sprint | Velocidad (=PH hechos en el sprint) | Velocidad media | Desviación estándar |
+| --- | --- | --- | --- |
+| Srpint 1 | 4 |  |  |
+| Sprint 2 | 28 | 15.667 | 12.013 |
+| Sprint 3 | 15 |  |  |
+
+## Tablas (una por cada sprint) con los datos para las gráficas de los sprints
+
+### Sprint 1
+
+| Sprint 1 - Fecha | PH o tareas por hacer | PH o tareas hechas |
+| --- | --- | --- |
+| Día 1 (9/03) | 247 | 6 |
+| Día 2 (10/03) | 247 | 6 |
+| Día 3 (11/03) | 247 | 6 |
+| Día 4 (12/03) | 247 | 6 |
+| Día 5 (13/03) | 247 | 6 |
+| Día 6 (14/03) | 247 | 6 |
+| Día 7 (15/03) | 247 | 6 |
+| Día 8 (16/03) | 247 | 6 |
+| Día 9 (17/03) | 243 | 10 |
+| Día 10 (18/03) | 243 | 10 |
+| Día 11 (19/03) | 243 | 10 |
+| Día 12 (20/03) | 243 | 10 |
+| Día 13 (21/03) | 243 | 10 |
+| Día 14 (22/03) | 243 | 10 |
+| Día 15 (23/03) | 243 | 10 |
+
+### Sprint 2
+
+| Sprint 2 - Fecha | PH o tareas por hacer | PH o tareas hechas |
+| --- | --- | --- |
+| Día 1 (23/03) | 251 | 10 |
+| Día 2 (24/03) | 251 | 10 |
+| Día 3 (25/03) | 251 | 10 |
+| Día 4 (26/03) | 251 | 10 |
+| Día 5 (27/03) | 251 | 10 |
+| Día 6 (28/03) | 251 | 10 |
+| Día 7 (29/03) | 251 | 10 |
+| Día 8 (30/03) | 251 | 10 |
+| Día 9 (31/03) | 251 | 10 |
+| Día 10 (01/04) | 251 | 10 |
+| Día 11 (02/04) | 251 | 10 |
+| Día 12 (03/04) | 251 | 10 |
+| Día 13 (04/04) | 251 | 10 |
+| Día 14 (05/04) | 251 | 10 |
+| Día 15 (06/04) | 251 | 10 |
+| Día 16 (07/04) | 246 | 15 |
+| Día 17 (08/04) | 246 | 15 |
+| Día 18 (09/04) | 226 | 35 |
+| Día 19 (10/04) | 223 | 38 |
+| Día 20 (11/04) | 223 | 38 |
+| Día 21 (12/04) | 223 | 38 |
+| Día 22 (13/04) | 223 | 38 |
+
+### Sprint 3
+
+| Sprint 3 - Fecha | PH o tareas por hacer | PH o tareas hechas |
+| --- | --- | --- |
+| Día 1 (13/04) | 225 | 38 |
+| Día 2 (14/04) | 225 | 38 |
+| Día 3 (15/04) | 225 | 38 |
+| Día 4 (16/04) | 220 | 43 |
+| Día 5 (17/04) | 220 | 43 |
+| Día 6 (18/04) | 220 | 43 |
+| Día 7 (19/04) | 212 | 51 |
+| Día 8 (20/04) | 210 | 53 |
+| Día 9 (21/04) | 210 | 53 |
+| Día 10 (22/04) | 210 | 53 |
+| Día 11 (23/04) | 210 | 53 |
+| Día 12 (24/04) | 210 | 53 |
+| Día 13 (25/04) | 210 | 53 |
+| Día 14 (26/04) | 210 | 53 |
+| Día 15 (27/04) | 210 | 53 |
+
+## Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 1
+
+### Burndown Sprint 1
+
+![Captura Grafica](/Graficas/burndown-sprint1.jpg)
+
+![Captura Grafica](/Graficas/burn-up-sprint1.jpg)
+
+## Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 2
+
+### Burndown Sprint 2
+
+![Captura Grafica](/Graficas/burndown-sprint2.jpg)
+
+![Captura Grafica](/Graficas/burn-up-sprint2.jpg)
+
+## Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 3
+
+### Burndown Sprint 3
+
+![Captura Grafica](/Graficas/burndown-sprint3.jpg)
+
+![Captura Grafica](/Graficas/burn-up-sprint3.jpg)
+
+## Conclusiones
+
+### Conclusiones relativas al proyecto en su totalidad
+
+#### Podemos observar como desde el inicio del proyecto hemos decidido dar mayor prioridad a las tareas con más valor. Terminando con un valor hecho de 926 y un valor por hacer únicamente de 3.
+#### También queda claro que según ha ido avanzando el proyecto nos hemos conocido mejor los integrantes del grupo y por tanto hemos trabajado de forma más eficiente y con mejores resultados.
+#### En un principio optamos por seleccionar pocas tareas para evitar seleccionar más de las que pudieramos realizar, cosa que en los siguientes sprints no ha sido así, ya que viendo que somos un grupo trabajador y bien coordinado, hemos ido seleccionando todas las tareas que veíamos necesarias para la mejora de nuestro proyecto.
+
+### Conclusiones relativas al desarrollo de los sprints
+
+#### En cada uno de los sprints hemos tenido un Product OWNER diferente, que no ha tenido que programar durante dicho sprint.
+#### Ha quedado claro como hemos ido mejorando con la entrega de cada uno de los sprints, mejorando nuestra organización y adaptación a los cambios sufridos desde el inicio.
+#### Se puede comprobar muy fácilmente, haciendo uso de los gráficos, la evolución del proyecto. En un principio optamos por tareas fáciles que nos ayudaran a comprobar la velocidad de desarrollo del equipo. Una vez comprobada nuestra capacidad de desarrollo decidimos optar por darle calidad al proyecto y comenzar a desarrollar las tareas con mayor valor (durante el sprint 2 puede verse este aumento). Por último, en el sprint 3 se realizaron las tareas que quedaban pendientes optando siempre por las que más valor aportaban a nuestro proyecto.
+
+## url del tablero Trello 
+
+https://trello.com/b/lOZgwuLS/práctica2agil
+
+## url sitio web Público
+
+https://vikingsundum.000webhostapp.com/
+
+## url de la hoja de cálculo de drive
+
+https://docs.google.com/spreadsheets/d/10nRmInB5dPWgR4C3bHpVDDWcQyIIiqdBdNgjaq-GHAE/edit?usp=sharing
