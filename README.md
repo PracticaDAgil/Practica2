@@ -320,6 +320,14 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 #### Ha quedado claro como hemos ido mejorando con la entrega de cada uno de los sprints, mejorando nuestra organización y adaptación a los cambios sufridos desde el inicio.
 #### Se puede comprobar muy fácilmente, haciendo uso de los gráficos, la evolución del proyecto. En un principio optamos por tareas fáciles que nos ayudaran a comprobar la velocidad de desarrollo del equipo. Una vez comprobada nuestra capacidad de desarrollo decidimos optar por darle calidad al proyecto y comenzar a desarrollar las tareas con mayor valor (durante el sprint 2 puede verse este aumento). Por último, en el sprint 3 se realizaron las tareas que quedaban pendientes optando siempre por las que más valor aportaban a nuestro proyecto.
 
+## url del tablero Trello 
+
+https://trello.com/b/lOZgwuLS/práctica2agil
+
+## url sitio web Público
+
+https://vikingsundum.000webhostapp.com/
+
 ## url de la hoja de cálculo de drive
 
 https://docs.google.com/spreadsheets/d/10nRmInB5dPWgR4C3bHpVDDWcQyIIiqdBdNgjaq-GHAE/edit?usp=sharing
