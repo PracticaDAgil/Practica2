@@ -1,4 +1,3 @@
-usepackage{multirow}
 ## Dangerous Kattegat
 
 ### La historia del juego trata sobre vikingos. Inicialmente, el protagonista llega a su tribu tras un tiempo y se enfreta a diferentes dificultades provocadas por el Conde de la tribu. Trendrá que tomar las decisiones adecuadas para conseguir evitarse problemas a él y su familia. 
@@ -210,9 +209,9 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 | Sprint | Velocidad (=PH hechos en el sprint) | Velocidad media | Desviación estándar |
 | --- | --- | --- | --- |
-| Srpint 1 | 4 | multirow{3}{*}{15.667} | 12.013 |
-| Sprint 2 | 28 |  |  |
-| Sprint 3 | 15 |  |  |
+| Srpint 1 | 4 | 15.667 | 12.013 |
+| Sprint 2 | 28 | 15.667 | 12.013 |
+| Sprint 3 | 15 | 15.667 | 12.013 |
 
 
 
