@@ -205,6 +205,18 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 ![Captura Grafica](/Graficas/burn-up-valor-hecho.jpg)
 
+## Tabla de velocidades
+
+| Sprint | Velocidad (=PH hechos en el sprint) | Velocidad media | Desviación estándar |
+| --- | --- | --- | --- |
+| Srpint 1 | 4 | 15.667 | 12.013 |
+| Sprint 2 | 28 |  |  |
+| Sprint 3 | 15 |  |  |
+
+
+
+
+
 
 
 
