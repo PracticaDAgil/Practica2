@@ -199,6 +199,12 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 
 ![Captura Grafica](/Graficas/burn-up-ph-hechos.jpg)
 
+## Gráficas burndown y burn-up del Valor asociado a las Historias de Usuario
+
+![Captura Grafica](/Graficas/burndown-valor-por-hacer.jpg)
+
+![Captura Grafica](/Graficas/burn-up-valor-hecho.jpg)
+
 
 
 
