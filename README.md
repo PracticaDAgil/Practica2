@@ -282,7 +282,29 @@ https://trello.com/b/lOZgwuLS/práctica2agil
 | Día 14 (26/04) | 210 | 53 |
 | Día 15 (27/04) | 210 | 53 |
 
+## Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 1
 
+### Burndown Sprint 1
+
+![Captura Grafica](/Graficas/burndown-sprint1.jpg)
+
+![Captura Grafica](/Graficas/burn-up-sprint1.jpg)
+
+## Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 2
+
+### Burndown Sprint 2
+
+![Captura Grafica](/Graficas/burndown-sprint2.jpg)
+
+![Captura Grafica](/Graficas/burn-up-sprint2.jpg)
+
+## Gráficas burndown y burn-up de los puntos de historia o tareas del sprint 3
+
+### Burndown Sprint 3
+
+![Captura Grafica](/Graficas/burndown-sprint3.jpg)
+
+![Captura Grafica](/Graficas/burn-up-sprint3.jpg)
 
 
 
